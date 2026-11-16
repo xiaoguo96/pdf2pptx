@@ -14,25 +14,10 @@
      "height_emu": 15392400
     }
    ],
-   "text_boxes": 2,
-   "text_editable_probe_passed": 2,
+   "text_boxes": 0,
+   "text_editable_probe_passed": 0,
    "other_shapes": 0,
-   "sample_texts": [
-    {
-     "name": "Text: 柯幻熊猫AI智能体",
-     "text": "柯幻熊猫AI智能体",
-     "size_pt": 51.3,
-     "bold": false,
-     "color": "B6C2D8"
-    },
-    {
-     "name": "Text: 郑州莱奥特科技",
-     "text": "郑州莱奥特科技",
-     "size_pt": 35.2,
-     "bold": false,
-     "color": "788EB7"
-    }
-   ]
+   "sample_texts": []
   },
   {
    "slide": 2,
@@ -43,30 +28,30 @@
      "height_emu": 15392400
     }
    ],
-   "text_boxes": 10,
-   "text_editable_probe_passed": 10,
+   "text_boxes": 3,
+   "text_editable_probe_passed": 3,
    "other_shapes": 0,
    "sample_texts": [
     {
-     "name": "Text: 郑州莱奥特科技",
-     "text": "郑州莱奥特科技",
-     "size_pt": 28.5,
-     "bold": false,
-     "color": "798292"
-    },
-    {
-     "name": "Text: 柯幻·让智能体有温度",
-     "text": "柯幻·让智能体有温度",
-     "size_pt": 19.5,
-     "bold": false,
-     "color": "575F6E"
-    },
-    {
      "name": "Text: 柯幻熊猫AI智能体",
      "text": "柯幻熊猫AI智能体",
-     "size_pt": 57.5,
+     "size_pt": 47.8,
      "bold": false,
      "color": "344462"
+    },
+    {
+     "name": "Text: 郑州莱奥特科技",
+     "text": "郑州莱奥特科技",
+     "size_pt": 33.29,
+     "bold": false,
+     "color": "696E81"
+    },
+    {
+     "name": "Text: 柯幻熊猫，让技术更有温度",
+     "text": "柯幻熊猫，让技术更有温度，让智能更贴近生活。",
+     "size_pt": 14.9,
+     "bold": false,
+     "color": "9DA6AF"
     }
    ]
   },
@@ -79,30 +64,30 @@
      "height_emu": 15392400
     }
    ],
-   "text_boxes": 15,
-   "text_editable_probe_passed": 15,
+   "text_boxes": 6,
+   "text_editable_probe_passed": 6,
    "other_shapes": 0,
    "sample_texts": [
     {
-     "name": "Text: 郑州莱奥特科技",
-     "text": "郑州莱奥特科技",
-     "size_pt": 26.8,
-     "bold": false,
-     "color": "7E8698"
-    },
-    {
-     "name": "Text: 柯幻·让智能体有温度",
-     "text": "柯幻·让智能体有温度",
-     "size_pt": 22.3,
-     "bold": false,
-     "color": "929DA9"
-    },
-    {
      "name": "Text: 目录",
      "text": "目录",
-     "size_pt": 55.8,
+     "size_pt": 44.6,
      "bold": false,
      "color": "4D6A8E"
+    },
+    {
+     "name": "Text: CONTENTS",
+     "text": "CONTENTS",
+     "size_pt": 23.3,
+     "bold": false,
+     "color": "63BCD4"
+    },
+    {
+     "name": "Text: 关于柯幻熊猫AI智能体",
+     "text": "关于柯幻熊猫AI智能体",
+     "size_pt": 17.0,
+     "bold": false,
+     "color": "8E95A2"
     }
    ]
   },
@@ -115,30 +100,30 @@
      "height_emu": 15392400
     }
    ],
-   "text_boxes": 22,
-   "text_editable_probe_passed": 22,
+   "text_boxes": 8,
+   "text_editable_probe_passed": 8,
    "other_shapes": 0,
    "sample_texts": [
     {
-     "name": "Text: 郑州莱奥特科技",
-     "text": "郑州莱奥特科技",
-     "size_pt": 28.5,
-     "bold": false,
-     "color": "5F6066"
-    },
-    {
-     "name": "Text: 柯幻·让智能体有温度",
-     "text": "柯幻·让智能体有温度",
-     "size_pt": 21.8,
-     "bold": false,
-     "color": "7E8189"
-    },
-    {
      "name": "Text: 柯幻熊猫智能体战略路线",
      "text": "柯幻熊猫智能体战略路线",
-     "size_pt": 59.7,
+     "size_pt": 49.1,
      "bold": false,
      "color": "262833"
+    },
+    {
+     "name": "Text: 以人为本，让AI智能体走",
+     "text": "以人为本，让AI智能体走进更多真实场景",
+     "size_pt": 27.3,
+     "bold": false,
+     "color": "9A9EA5"
+    },
+    {
+     "name": "Text: 技术筑基",
+     "text": "技术筑基",
+     "size_pt": 22.7,
+     "bold": false,
+     "color": "5C6171"
     }
    ]
   },
@@ -151,30 +136,30 @@
      "height_emu": 15392400
     }
    ],
-   "text_boxes": 20,
-   "text_editable_probe_passed": 20,
+   "text_boxes": 8,
+   "text_editable_probe_passed": 8,
    "other_shapes": 0,
    "sample_texts": [
     {
-     "name": "Text: 郑州莱奥特科技",
-     "text": "郑州莱奥特科技",
-     "size_pt": 26.2,
-     "bold": false,
-     "color": "5D5F63"
-    },
-    {
-     "name": "Text: 柯幻·让智能体有温度",
-     "text": "柯幻·让智能体有温度",
-     "size_pt": 21.8,
-     "bold": false,
-     "color": "82848B"
-    },
-    {
      "name": "Text: 核心能力",
      "text": "核心能力",
-     "size_pt": 60.8,
+     "size_pt": 48.6,
      "bold": false,
      "color": "20212C"
+    },
+    {
+     "name": "Text: 以技术与场景双轮驱动，打",
+     "text": "以技术与场景双轮驱动，打造更有温度的AI智能体",
+     "size_pt": 26.3,
+     "bold": false,
+     "color": "9C9EA5"
+    },
+    {
+     "name": "Text: 实现更自然的交互体验。",
+     "text": "实现更自然的交互体验。",
+     "size_pt": 16.7,
+     "bold": false,
+     "color": "A5A9AF"
     }
    ]
   },
@@ -187,30 +172,30 @@
      "height_emu": 15392400
     }
    ],
-   "text_boxes": 18,
-   "text_editable_probe_passed": 18,
+   "text_boxes": 11,
+   "text_editable_probe_passed": 11,
    "other_shapes": 0,
    "sample_texts": [
     {
-     "name": "Text: 郑州莱奥特科技",
-     "text": "郑州莱奥特科技",
-     "size_pt": 26.8,
-     "bold": false,
-     "color": "5E667B"
-    },
-    {
-     "name": "Text: 柯幻·让智能体有温度",
-     "text": "柯幻·让智能体有温度",
-     "size_pt": 22.3,
-     "bold": false,
-     "color": "A3A8B4"
-    },
-    {
      "name": "Text: 安全与合规",
      "text": "安全与合规",
-     "size_pt": 74.2,
+     "size_pt": 58.3,
      "bold": false,
      "color": "293F65"
+    },
+    {
+     "name": "Text: 构建可信赖的智能体服务体",
+     "text": "构建可信赖的智能体服务体系",
+     "size_pt": 28.7,
+     "bold": false,
+     "color": "8B92A0"
+    },
+    {
+     "name": "Text: 昆",
+     "text": "昆",
+     "size_pt": 98.4,
+     "bold": false,
+     "color": "3AA8C8"
     }
    ]
   },
@@ -223,30 +208,30 @@
      "height_emu": 15392400
     }
    ],
-   "text_boxes": 15,
-   "text_editable_probe_passed": 15,
+   "text_boxes": 11,
+   "text_editable_probe_passed": 11,
    "other_shapes": 0,
    "sample_texts": [
     {
-     "name": "Text: 郑州莱奥特科技",
-     "text": "郑州莱奥特科技",
-     "size_pt": 26.8,
-     "bold": false,
-     "color": "5F697E"
-    },
-    {
-     "name": "Text: 柯幻·让智能体有温度",
-     "text": "柯幻·让智能体有温度",
-     "size_pt": 22.3,
-     "bold": false,
-     "color": "A1A8B2"
-    },
-    {
      "name": "Text: 应用场景",
      "text": "应用场景",
-     "size_pt": 72.0,
+     "size_pt": 58.3,
      "bold": false,
      "color": "2F4366"
+    },
+    {
+     "name": "Text: 三大场景落地，赋能千行百",
+     "text": "三大场景落地，赋能千行百业",
+     "size_pt": 28.8,
+     "bold": false,
+     "color": "8E94A1"
+    },
+    {
+     "name": "Text: 企业办公",
+     "text": "企业办公",
+     "size_pt": 27.8,
+     "bold": false,
+     "color": "535F7E"
     }
    ]
   },
@@ -259,30 +244,30 @@
      "height_emu": 15392400
     }
    ],
-   "text_boxes": 34,
-   "text_editable_probe_passed": 34,
+   "text_boxes": 9,
+   "text_editable_probe_passed": 9,
    "other_shapes": 0,
    "sample_texts": [
     {
-     "name": "Text: 郑州莱奥特科技",
-     "text": "郑州莱奥特科技",
-     "size_pt": 26.2,
-     "bold": false,
-     "color": "6D839C"
-    },
-    {
-     "name": "Text: 柯幻·让智能体有温度",
-     "text": "柯幻·让智能体有温度",
-     "size_pt": 21.8,
-     "bold": false,
-     "color": "839AA7"
-    },
-    {
      "name": "Text: 市场趋势",
      "text": "市场趋势",
-     "size_pt": 57.5,
+     "size_pt": 44.9,
      "bold": false,
      "color": "334B6B"
+    },
+    {
+     "name": "Text: 企业引入AI智能体的核心",
+     "text": "企业引入AI智能体的核心动因",
+     "size_pt": 19.39,
+     "bold": false,
+     "color": "647790"
+    },
+    {
+     "name": "Text: 优化客户体验",
+     "text": "优化客户体验",
+     "size_pt": 16.6,
+     "bold": false,
+     "color": "94A0AC"
     }
    ]
   },
@@ -295,30 +280,30 @@
      "height_emu": 15392400
     }
    ],
-   "text_boxes": 19,
-   "text_editable_probe_passed": 19,
+   "text_boxes": 14,
+   "text_editable_probe_passed": 14,
    "other_shapes": 0,
    "sample_texts": [
     {
-     "name": "Text: 郑州莱奥特科技",
-     "text": "郑州莱奥特科技",
-     "size_pt": 26.2,
-     "bold": false,
-     "color": "72889C"
-    },
-    {
-     "name": "Text: 柯幻·让智能体有温度",
-     "text": "柯幻·让智能体有温度",
-     "size_pt": 21.8,
-     "bold": false,
-     "color": "879BA8"
-    },
-    {
      "name": "Text: 合作范围",
      "text": "合作范围",
-     "size_pt": 60.8,
+     "size_pt": 46.1,
      "bold": false,
      "color": "364C6E"
+    },
+    {
+     "name": "Text: 开放多元合作，共建智能化",
+     "text": "开放多元合作，共建智能化未来",
+     "size_pt": 27.5,
+     "bold": false,
+     "color": "6D7B90"
+    },
+    {
+     "name": "Text: 行业解决方案合作",
+     "text": "行业解决方案合作",
+     "size_pt": 21.8,
+     "bold": false,
+     "color": "596984"
     }
    ]
   },
@@ -331,32 +316,10 @@
      "height_emu": 15392400
     }
    ],
-   "text_boxes": 6,
-   "text_editable_probe_passed": 6,
+   "text_boxes": 0,
+   "text_editable_probe_passed": 0,
    "other_shapes": 0,
-   "sample_texts": [
-    {
-     "name": "Text: 郑州莱奥特科技",
-     "text": "郑州莱奥特科技",
-     "size_pt": 32.4,
-     "bold": false,
-     "color": "909BB7"
-    },
-    {
-     "name": "Text: 柯幻熊猫AI智能体",
-     "text": "柯幻熊猫AI智能体",
-     "size_pt": 29.0,
-     "bold": false,
-     "color": "9AA8BF"
-    },
-    {
-     "name": "Text: 智启未来融合创新",
-     "text": "智启未来融合创新",
-     "size_pt": 26.8,
-     "bold": false,
-     "color": "8891AD"
-    }
-   ]
+   "sample_texts": []
   }
  ]
 }
