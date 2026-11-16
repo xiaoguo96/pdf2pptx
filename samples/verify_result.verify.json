@@ -1,5 +1,5 @@
 {
- "file": "测试3_converted.pptx",
+ "file": "测试3_llm.pptx",
  "slide_size_pt": [
   852.0,
   1212.0
@@ -28,30 +28,30 @@
      "height_emu": 15392400
     }
    ],
-   "text_boxes": 3,
-   "text_editable_probe_passed": 3,
+   "text_boxes": 5,
+   "text_editable_probe_passed": 5,
    "other_shapes": 0,
    "sample_texts": [
     {
-     "name": "Text: 柯幻熊猫AI智能体",
-     "text": "柯幻熊猫AI智能体",
-     "size_pt": 47.8,
-     "bold": false,
-     "color": "344462"
+     "name": "Text: 柯幻熊猫 AI 智能体",
+     "text": "柯幻熊猫 AI 智能体",
+     "size_pt": 44.2,
+     "bold": true,
+     "color": "082957"
     },
     {
-     "name": "Text: 郑州莱奥特科技",
-     "text": "郑州莱奥特科技",
-     "size_pt": 33.29,
+     "name": "Text: 以人工智能技术为核心，构",
+     "text": "以人工智能技术为核心，构建有温度、",
+     "size_pt": 18.89,
      "bold": false,
-     "color": "696E81"
+     "color": "263B5E"
     },
     {
-     "name": "Text: 柯幻熊猫，让技术更有温度",
-     "text": "柯幻熊猫，让技术更有温度，让智能更贴近生活。",
-     "size_pt": 14.9,
+     "name": "Text: 可进化、可落地的智能体解",
+     "text": "可进化、可落地的智能体解决方案，",
+     "size_pt": 19.0,
      "bold": false,
-     "color": "9DA6AF"
+     "color": "263B5E"
     }
    ]
   },
@@ -64,30 +64,30 @@
      "height_emu": 15392400
     }
    ],
-   "text_boxes": 6,
-   "text_editable_probe_passed": 6,
+   "text_boxes": 4,
+   "text_editable_probe_passed": 4,
    "other_shapes": 0,
    "sample_texts": [
     {
      "name": "Text: 目录",
      "text": "目录",
-     "size_pt": 44.6,
-     "bold": false,
-     "color": "4D6A8E"
+     "size_pt": 40.6,
+     "bold": true,
+     "color": "123A73"
     },
     {
-     "name": "Text: CONTENTS",
-     "text": "CONTENTS",
-     "size_pt": 23.3,
+     "name": "Text: 关于柯幻熊猫 AI智能体",
+     "text": "关于柯幻熊猫 AI智能体",
+     "size_pt": 15.9,
      "bold": false,
-     "color": "63BCD4"
+     "color": "263A59"
     },
     {
-     "name": "Text: 关于柯幻熊猫AI智能体",
-     "text": "关于柯幻熊猫AI智能体",
-     "size_pt": 17.0,
+     "name": "Text: 核心技术与产品体系",
+     "text": "核心技术与产品体系",
+     "size_pt": 18.3,
      "bold": false,
-     "color": "8E95A2"
+     "color": "263A59"
     }
    ]
   },
@@ -100,30 +100,30 @@
      "height_emu": 15392400
     }
    ],
-   "text_boxes": 8,
-   "text_editable_probe_passed": 8,
+   "text_boxes": 11,
+   "text_editable_probe_passed": 11,
    "other_shapes": 0,
    "sample_texts": [
     {
      "name": "Text: 柯幻熊猫智能体战略路线",
      "text": "柯幻熊猫智能体战略路线",
-     "size_pt": 49.1,
-     "bold": false,
-     "color": "262833"
+     "size_pt": 49.4,
+     "bold": true,
+     "color": "0B1020"
     },
     {
-     "name": "Text: 以人为本，让AI智能体走",
-     "text": "以人为本，让AI智能体走进更多真实场景",
-     "size_pt": 27.3,
+     "name": "Text: 以人为本，让 AI 智能",
+     "text": "以人为本，让 AI 智能体走进更多真实场景",
+     "size_pt": 26.4,
      "bold": false,
-     "color": "9A9EA5"
+     "color": "59606E"
     },
     {
-     "name": "Text: 技术筑基",
-     "text": "技术筑基",
-     "size_pt": 22.7,
+     "name": "Text: 构建多模态能力",
+     "text": "构建多模态能力",
+     "size_pt": 17.3,
      "bold": false,
-     "color": "5C6171"
+     "color": "59606E"
     }
    ]
   },
@@ -136,30 +136,30 @@
      "height_emu": 15392400
     }
    ],
-   "text_boxes": 8,
-   "text_editable_probe_passed": 8,
+   "text_boxes": 12,
+   "text_editable_probe_passed": 12,
    "other_shapes": 0,
    "sample_texts": [
     {
-     "name": "Text: 核心能力",
-     "text": "核心能力",
-     "size_pt": 48.6,
+     "name": "Text: 以技术与场景双轮驱动，打",
+     "text": "以技术与场景双轮驱动，打造更有温度的 AI 智能体",
+     "size_pt": 25.5,
      "bold": false,
-     "color": "20212C"
+     "color": "4B5563"
     },
     {
-     "name": "Text: 以技术与场景双轮驱动，打",
-     "text": "以技术与场景双轮驱动，打造更有温度的AI智能体",
-     "size_pt": 26.3,
-     "bold": false,
-     "color": "9C9EA5"
+     "name": "Text: 多模态理解与生成",
+     "text": "多模态理解与生成",
+     "size_pt": 22.7,
+     "bold": true,
+     "color": "0B1220"
     },
     {
      "name": "Text: 实现更自然的交互体验。",
      "text": "实现更自然的交互体验。",
-     "size_pt": 16.7,
+     "size_pt": 16.3,
      "bold": false,
-     "color": "A5A9AF"
+     "color": "6B7280"
     }
    ]
   },
@@ -179,23 +179,23 @@
     {
      "name": "Text: 安全与合规",
      "text": "安全与合规",
-     "size_pt": 58.3,
-     "bold": false,
-     "color": "293F65"
+     "size_pt": 56.9,
+     "bold": true,
+     "color": "082B5B"
     },
     {
      "name": "Text: 构建可信赖的智能体服务体",
      "text": "构建可信赖的智能体服务体系",
-     "size_pt": 28.7,
+     "size_pt": 28.6,
      "bold": false,
-     "color": "8B92A0"
+     "color": "536276"
     },
     {
-     "name": "Text: 昆",
-     "text": "昆",
-     "size_pt": 98.4,
+     "name": "Text: 机制，保障数据安全与隐私",
+     "text": "机制，保障数据安全与隐私。",
+     "size_pt": 17.7,
      "bold": false,
-     "color": "3AA8C8"
+     "color": "536276"
     }
    ]
   },
@@ -208,30 +208,30 @@
      "height_emu": 15392400
     }
    ],
-   "text_boxes": 11,
-   "text_editable_probe_passed": 11,
+   "text_boxes": 10,
+   "text_editable_probe_passed": 10,
    "other_shapes": 0,
    "sample_texts": [
     {
      "name": "Text: 应用场景",
      "text": "应用场景",
-     "size_pt": 58.3,
-     "bold": false,
-     "color": "2F4366"
+     "size_pt": 56.8,
+     "bold": true,
+     "color": "082D68"
     },
     {
      "name": "Text: 三大场景落地，赋能千行百",
      "text": "三大场景落地，赋能千行百业",
      "size_pt": 28.8,
      "bold": false,
-     "color": "8E94A1"
+     "color": "596474"
     },
     {
      "name": "Text: 企业办公",
      "text": "企业办公",
-     "size_pt": 27.8,
-     "bold": false,
-     "color": "535F7E"
+     "size_pt": 26.6,
+     "bold": true,
+     "color": "082D68"
     }
    ]
   },
@@ -251,23 +251,23 @@
     {
      "name": "Text: 市场趋势",
      "text": "市场趋势",
-     "size_pt": 44.9,
-     "bold": false,
-     "color": "334B6B"
+     "size_pt": 43.3,
+     "bold": true,
+     "color": "12345D"
     },
     {
-     "name": "Text: 企业引入AI智能体的核心",
-     "text": "企业引入AI智能体的核心动因",
-     "size_pt": 19.39,
+     "name": "Text: AI 智能体加速渗透，行",
+     "text": "AI 智能体加速渗透，行业应用进入规模化落地阶段",
+     "size_pt": 27.0,
      "bold": false,
-     "color": "647790"
+     "color": "17385F"
     },
     {
-     "name": "Text: 优化客户体验",
-     "text": "优化客户体验",
-     "size_pt": 16.6,
-     "bold": false,
-     "color": "94A0AC"
+     "name": "Text: 中国 AI 智能体市场规",
+     "text": "中国 AI 智能体市场规模（亿元）",
+     "size_pt": 17.7,
+     "bold": true,
+     "color": "12385F"
     }
    ]
   },
@@ -280,30 +280,30 @@
      "height_emu": 15392400
     }
    ],
-   "text_boxes": 14,
-   "text_editable_probe_passed": 14,
+   "text_boxes": 12,
+   "text_editable_probe_passed": 12,
    "other_shapes": 0,
    "sample_texts": [
     {
      "name": "Text: 合作范围",
      "text": "合作范围",
-     "size_pt": 46.1,
-     "bold": false,
-     "color": "364C6E"
+     "size_pt": 44.8,
+     "bold": true,
+     "color": "0B315E"
     },
     {
      "name": "Text: 开放多元合作，共建智能化",
      "text": "开放多元合作，共建智能化未来",
-     "size_pt": 27.5,
+     "size_pt": 27.4,
      "bold": false,
-     "color": "6D7B90"
+     "color": "12345D"
     },
     {
      "name": "Text: 行业解决方案合作",
      "text": "行业解决方案合作",
-     "size_pt": 21.8,
-     "bold": false,
-     "color": "596984"
+     "size_pt": 21.5,
+     "bold": true,
+     "color": "12345D"
     }
    ]
   },

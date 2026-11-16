@@ -8,18 +8,28 @@
 
 ```
 PDF 页面 ──PyMuPDF 渲染──> 高分辨率位图 (150 DPI)
-        ──RapidOCR──> 每行文字 + 边界框 + 置信度
+        ──提取(双模式)──> A. 视觉大模型(OpenAI 兼容 API)：整页图 → 文字块+bbox+类别
+        │                B. 本地 RapidOCR：逐行文字 + 边界框（无 API key 时自动降级）
         ──元素分类──> PROTECT(保持原样) / REBUILD(重建为文本框)
         ──像素分析──> 字号 / 颜色 / 加粗（由笔画宽度估算）
         ──OpenCV 平滑填充──> 仅擦除 REBUILD 行文字（逐行线性插值，无涂抹阴影）
         ──python-pptx──> 幻灯片 = 处理后的整页背景图 + 原生文本框叠加
 ```
 
-1. **元素保护（PROTECT）**：以下 OCR 行**不擦除、不重渲染，保持原始像素**——
-   页眉/页脚带（logo、公司名、页码）、纯数字/百分比/千分位/年份标签（图表数值、
-   目录页码、徽章编号）、极短小标签、紧邻高饱和彩色图形（柱状图、图标）或背景
-   不平滑（照片/渐变/纹理）的文字。OCR 合并行（如 `01关于柯幻03`）按字宽比例
-   拆分：数字段保持原样，仅中间文字段重建为可编辑文本框。
+### 双提取模式（`--mode auto|llm|ocr`）
+
+| 模式 | 提取方式 | 元素分类依据 | 说明 |
+|---|---|---|---|
+| `llm` | 视觉大模型读整页图，直接输出文字块、bbox、颜色、加粗及**语义类别**（body/logo/header/footer/page_number/chart_label/badge） | 模型类别 + 像素侧带复检 | 需 `LLM_API_KEY`；多行文本自动聚合成块 |
+| `ocr` | RapidOCR 逐行识别 | 启发式规则（正则/位置/侧带） | 完全离线 |
+| `auto` | 有 key 走 llm，否则 ocr；单页 API 失败自动回退 ocr | — | 默认 |
+
+两种模式共用同一套**元素保护与重建**逻辑：
+
+1. **元素保护（PROTECT）**：页码、logo、页眉页脚、图表数值/百分比/年份、编号徽章、
+   贴彩色图形或复杂背景上的文字**不擦除、不重渲染，保持原始像素**。OCR 合并行
+   （如 `01关于柯幻03`）按字宽比例拆分：数字段保持原样，仅中间文字段重建。
+   LLM 模式还会对模型判为 body 的行做左右侧带像素复检（防幻觉、防贴图形误重建）。
 2. **文字重建（REBUILD）**：平滑背景上的正文按边界框生成独立原生文本框；字号取
    “高度反推”与“宽度反推”（Σ字宽系数）的**较小值**，保证重排文字不会溢出原
    矩形框/卡片；颜色取字形核心像素中位数，加粗由距离变换估算笔画宽度比判定；
@@ -36,6 +46,24 @@ PDF 页面 ──PyMuPDF 渲染──> 高分辨率位图 (150 DPI)
   `flask` `pymupdf` `opencv-python-headless` `numpy` `pillow` `python-pptx` `rapidocr-onnxruntime`
 - OCR 模型（PaddleOCR 中英文检测+识别 ONNX 模型）随 `rapidocr-onnxruntime` 自动打包，
   首次运行自动加载，**无需联网、无需 GPU**。
+- LLM 模式仅用 Python 标准库（`urllib`）调用 OpenAI 兼容接口，无额外依赖。
+
+## 主要依赖及 AI / 第三方 API 使用情况说明
+
+按题目统一说明要求，列明本项目使用的外部资源：
+
+| 类别 | 名称 | 用途 |
+|---|---|---|
+| AI 编程工具 | Trae（AI IDE） | 辅助编写本项目源代码、调试与测试脚本 |
+| 开源项目 | PyMuPDF | PDF 页面渲染 |
+| 开源项目 | RapidOCR (PaddleOCR ONNX 模型) | 本地 OCR 文字识别（ocr 模式） |
+| 开源项目 | OpenCV | 像素分析、文字擦除（平滑填充） |
+| 开源项目 | python-pptx | 生成 PPTX 原生对象 |
+| 开源项目 | Flask | Web Demo |
+| 第三方 API | OpenAI 兼容中转接口（面试官提供） | LLM 模式：视觉大模型整页布局/语义分类提取；生图模型备用 |
+
+**敏感信息处理**：API Key 仅通过环境变量 `LLM_API_KEY` 注入，
+**未提交到本仓库任何文件**（仓库内代码只读取 `os.environ`）。
 
 ## 安装与启动
 
@@ -50,14 +78,18 @@ pip install -r requirements.txt
 ### 方式一：命令行转换
 
 ```bash
-python scripts/convert.py 输入.pdf 输出.pptx --dpi 150
-# 同时生成元素清单 输出.manifest.json（每页文字/坐标/字号/颜色/加粗）
+python scripts/convert.py 输入.pdf 输出.pptx --dpi 150 --mode auto
+# 同时生成元素清单 输出.manifest.json（每页文字/坐标/字号/颜色/加粗/保护原因/提取来源）
+# LLM 模式（需面试官提供的 key，切勿写死在代码里）:
+#   export LLM_API_KEY=sk-xxxx   # Windows: set LLM_API_KEY=sk-xxxx
+#   python scripts/convert.py 输入.pdf 输出.pptx --mode llm
 ```
 
 ### 方式二：Web Demo（上传 PDF → 下载 PPTX）
 
 ```bash
-python app.py                     # 默认 http://127.0.0.1:7860
+export LLM_API_KEY=sk-xxxx       # 可选；不设置则 Demo 自动使用本地 OCR 模式
+python app.py                    # 默认 http://127.0.0.1:7860
 # 自定义端口: PORT=8000 python app.py
 ```
 
@@ -108,12 +140,18 @@ docker run -p 7860:7860 pdf2pptx
 
 ## 实测结果（测试3.pdf，10 页图片型 PDF）
 
-- 10 页 → 10 张幻灯片（852×1212 pt，与 PDF 页面一致）
-- 70 个可编辑文本框 + 91 个受保护元素行（页眉/页脚/页码/图表数值/徽章等原样保留）
-- 文本改写探针 70/70 通过
-- 背景保真度（非文字区域像素匹配率）平均 98.1%；受保护区域逐页偏差 ≤2（压缩噪声级）
-- 重渲染文字宽度逐行核验：与原行宽偏差 ≤1px，无矩形框/卡片溢出
-- Web Demo 端到端实测：上传 → 约 60s → 自动下载 PPTX
+**LLM 模式（主交付，视觉大模型 gpt-5.6-luna）**
+
+- 10 页 → 10 张幻灯片（852×1212 pt，与 PDF 页面一致），全部页面由 API 提取
+- 74 个可编辑文本框 + 94 个受保护元素（模型语义分类：logo 9 / header 8 / footer 10 /
+  page_number 8 / badge 8 / chart_label 26 + 侧带复检改判）
+- 文本改写探针 74/74 通过；重渲染文字逐行核验 0 溢出
+- 受保护区域（页眉/页脚/图表/徽章）与原页偏差 ≤2.7（JPEG 噪声级）
+
+**OCR 模式（离线降级）**
+
+- 70 个可编辑文本框 + 91 个受保护元素行；探针 70/70 通过
+- 背景保真度（非文字区域像素匹配率）平均 98.1%；0 溢出；无阴影残留
 
 ## 目录结构
 
@@ -121,7 +159,8 @@ docker run -p 7860:7860 pdf2pptx
 pdf2pptx/
 ├── app.py                  # Flask Web Demo
 ├── templates/index.html    # 上传页面
-├── converter/core.py       # 转换管线（渲染/OCR/排版估算/背景修复/构建 PPTX）
+├── converter/core.py       # 转换管线（渲染/提取/元素分类/背景修复/构建 PPTX）
+├── converter/llm.py        # OpenAI 兼容视觉 API 布局提取器（key 仅从环境变量读取）
 ├── scripts/convert.py      # 命令行入口
 ├── verify/verify_pptx.py   # 可编辑性验证脚本
 ├── samples/                # 实测产物与验证材料

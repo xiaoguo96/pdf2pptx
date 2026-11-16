@@ -202,27 +202,39 @@ def _factor(text):
     return sum(_char_w(c) for c in text) or 1.0
 
 
-def _ring_stats(img, x0, y0, x1, y1, pad=8):
-    """Gradient energy + color saturation of the ring around a bbox."""
+def _ring_stats(img, x0, y0, x1, y1, pad=12, gap=4):
+    """Gradient energy + color saturation of the LEFT/RIGHT side bands.
+
+    Only horizontal bands are checked (matching the row-wise fill which
+    interpolates from left/right neighbours); a `gap` margin next to the
+    bbox is skipped so glyph anti-aliasing halos don't count as edges.
+    """
     H, W = img.shape[:2]
-    ox0, oy0 = max(0, x0 - pad), max(0, y0 - pad)
-    ox1, oy1 = min(W, x1 + pad), min(H, y1 + pad)
-    if ox1 - ox0 < 4 or oy1 - oy0 < 4:
+    y0c, y1c = max(0, y0), min(H, y1)
+    if y1c - y0c < 3:
         return 1e9, 1.0
-    outer = img[oy0:oy1, ox0:ox1]
-    gray = cv2.cvtColor(outer, cv2.COLOR_BGR2GRAY)
-    gx = cv2.Sobel(gray, cv2.CV_32F, 1, 0)
-    gy = cv2.Sobel(gray, cv2.CV_32F, 0, 1)
-    mag = np.sqrt(gx * gx + gy * gy)
-    rm = np.ones(mag.shape, bool)
-    iy0, ix0 = y0 - oy0, x0 - ox0
-    rm[iy0:y1 - oy0, ix0:x1 - ox0] = False
-    ring = outer[rm].astype(np.int16)
-    if ring.size == 0:
+    bands = []
+    la, lb = max(0, x0 - pad), max(0, x0 - gap)
+    if lb - la >= 3:
+        bands.append(img[y0c:y1c, la:lb])
+    ra, rb = min(W, x1 + gap), min(W, x1 + pad)
+    if rb - ra >= 3:
+        bands.append(img[y0c:y1c, ra:rb])
+    if not bands:
         return 1e9, 1.0
-    sat = ring.max(axis=1) - ring.min(axis=1)
+    px = np.concatenate([b.reshape(-1, 3) for b in bands], axis=0).astype(np.int16)
+    if px.shape[0] < 8:
+        return 1e9, 1.0
+    mags = []
+    for b in bands:
+        g = cv2.cvtColor(b, cv2.COLOR_BGR2GRAY)
+        gx = cv2.Sobel(g, cv2.CV_32F, 1, 0)
+        gy = cv2.Sobel(g, cv2.CV_32F, 0, 1)
+        mags.append(np.sqrt(gx * gx + gy * gy).ravel())
+    mag = np.concatenate(mags)
+    sat = px.max(axis=1) - px.min(axis=1)
     frac_sat = float((sat > 80).mean())
-    grad90 = float(np.percentile(mag[rm], 90))
+    grad90 = float(np.percentile(mag, 90))
     return grad90, frac_sat
 
 
@@ -410,7 +422,8 @@ def build_pptx(pages, out_path, dpi):
                                        height=prs.slide_height)
         pic.name = f"Page{idx + 1} Background"
         entry = {"page": idx + 1, "picture": pic.name, "texts": [],
-                 "protected": pg.get("protected", [])}
+                 "protected": pg.get("protected", []),
+                 "source": pg.get("source", "ocr(RapidOCR)")}
         for ln in pg["lines"]:
             left = Emu(int(round(ln.x * emu_per_px)))
             top = Emu(int(round(ln.y * emu_per_px)))
@@ -442,22 +455,123 @@ def build_pptx(pages, out_path, dpi):
 
 
 # --------------------------------------------------------------------------
+# LLM (vision API) based layout extraction
+# --------------------------------------------------------------------------
+def _hex_to_rgb(hexstr):
+    s = (hexstr or "").strip().lstrip("#")
+    if len(s) != 6 or not all(c in "0123456789abcdefABCDEF" for c in s):
+        return None
+    return tuple(int(s[i:i + 2], 16) for i in (0, 2, 4))
+
+
+def lines_from_llm(img_bgr, elements, dpi):
+    """Convert LLM elements to (rebuild_lines, protected_infos).
+
+    kind != "body"  -> PROTECT (original pixels kept, no erase).
+    kind == "body"  -> split into lines, rebuild as editable text boxes.
+    """
+    rebuild, protected = [], []
+    H, W = img_bgr.shape[:2]
+    px_to_pt = 72.0 / dpi
+    for el in elements:
+        if el.kind != "body":
+            protected.append({
+                "text": el.text.replace("\n", " ")[:40],
+                "reason": f"llm:{el.kind}",
+            })
+            continue
+        parts = [p.strip() for p in el.text.split("\n") if p.strip()]
+        if not parts:
+            continue
+        lh = el.h / len(parts)
+        for j, t in enumerate(parts):
+            x0 = max(0, int(el.x))
+            x1 = min(W, int(el.x + el.w))
+            y0 = max(0, int(el.y + j * lh))
+            y1 = min(H, int(el.y + (j + 1) * lh))
+            if x1 - x0 < 4 or y1 - y0 < 4:
+                continue
+            crop = img_bgr[y0:y1, x0:x1]
+            mask = _binarize(crop)
+            # 收紧 bbox：按字形像素投影裁掉块级框的空白边距
+            ys, xs = np.where(mask > 0)
+            if len(xs) > 20:
+                y0, y1 = y0 + int(ys.min()), y0 + int(ys.max()) + 1
+                x0, x1 = x0 + int(xs.min()), x0 + int(xs.max()) + 1
+                crop = img_bgr[y0:y1, x0:x1]
+                mask = _binarize(crop)
+            # 防幻觉/防复杂背景：环域不平滑或贴彩色图形的行改判保护
+            grad90, frac_sat = _ring_stats(img_bgr, x0, y0, x1, y1)
+            if frac_sat > RING_SAT_FRAC_MAX or grad90 > RING_GRAD_MAX:
+                protected.append({
+                    "text": t[:40],
+                    "reason": "llm:body but complex background",
+                })
+                continue
+            color = _hex_to_rgb(el.color_hex) or _text_color(crop, mask)
+            size_pt = max(7.0, round((y1 - y0) * px_to_pt / 0.86, 1))
+            ln = TextLine(
+                text=t, score=1.0,
+                x=x0, y=y0, w=x1 - x0, h=y1 - y0,
+                size_pt=size_pt, color=color,
+                bold=el.bold or _is_bold(mask, y1 - y0),
+                mask=mask,
+            )
+            rebuild.append(replace(ln, size_pt=_fit_size_pt(ln, dpi)))
+    return rebuild, protected
+
+
+# --------------------------------------------------------------------------
 # Main entry
 # --------------------------------------------------------------------------
 def convert_pdf_to_pptx(pdf_path, pptx_path, dpi=150, manifest_path=None,
-                        workdir=None, keep_workdir=False):
+                        workdir=None, keep_workdir=False, mode="auto"):
+    """mode: auto (LLM if key present, else OCR) | llm | ocr"""
     doc = pymupdf.open(pdf_path)
     if doc.page_count == 0:
         raise ValueError("PDF has no pages")
-    ocr = OcrEngine()
-    pages = []
-    all_manifest = []
-    for idx, page in enumerate(doc):
+
+    llm = None
+    if mode in ("auto", "llm"):
+        from .llm import LlmLayoutExtractor
+        if LlmLayoutExtractor.available():
+            llm = LlmLayoutExtractor()
+
+    # 1. render all pages
+    rasters = []
+    for page in doc:
         pix = page.get_pixmap(dpi=dpi)
         img = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
-        bgr = cv2.cvtColor(np.array(img), cv2.COLOR_RGB2BGR)
-        lines = analyze_lines(bgr, ocr.lines(bgr), dpi)
-        rebuild, protected = classify_lines(bgr, lines, dpi, bgr.shape[0])
+        rasters.append((cv2.cvtColor(np.array(img), cv2.COLOR_RGB2BGR),
+                        page.rect.width, page.rect.height))
+    doc.close()
+
+    # 2. parallel LLM extraction (falls back to OCR per page on failure)
+    llm_results = [None] * len(rasters)
+    if llm is not None:
+        from concurrent.futures import ThreadPoolExecutor
+        def _one(i):
+            try:
+                return i, llm.extract(rasters[i][0])
+            except Exception:
+                return i, None
+        with ThreadPoolExecutor(max_workers=4) as ex:
+            for i, els in ex.map(_one, range(len(rasters))):
+                llm_results[i] = els
+
+    ocr = None
+    pages = []
+    for idx, (bgr, w_pt, h_pt) in enumerate(rasters):
+        source = "ocr(RapidOCR)"
+        elements = llm_results[idx]
+        if elements and any(e.kind == "body" for e in elements):
+            rebuild, protected = lines_from_llm(bgr, elements, dpi)
+            source = f"llm({llm.model})"
+        else:
+            if ocr is None:
+                ocr = OcrEngine()
+            lines = analyze_lines(bgr, ocr.lines(bgr), dpi)
+            rebuild, protected = classify_lines(bgr, lines, dpi, bgr.shape[0])
         fixed = erase_lines(bgr, rebuild)
         ok, buf = cv2.imencode(".jpg", fixed,
                                [int(cv2.IMWRITE_JPEG_QUALITY), 88])
@@ -465,11 +579,11 @@ def convert_pdf_to_pptx(pdf_path, pptx_path, dpi=150, manifest_path=None,
             "bg_bytes": buf.tobytes(),
             "lines": rebuild,
             "protected": protected,
-            "w_pt": page.rect.width,
-            "h_pt": page.rect.height,
+            "source": source,
+            "w_pt": w_pt,
+            "h_pt": h_pt,
         })
     out = build_pptx(pages, pptx_path, dpi)
-    doc.close()
     if manifest_path:
         with open(manifest_path, "w", encoding="utf-8") as f:
             json.dump(out, f, ensure_ascii=False, indent=1)

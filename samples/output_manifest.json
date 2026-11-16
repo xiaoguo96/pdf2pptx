@@ -5,95 +5,119 @@
   "texts": [],
   "protected": [
    {
-    "text": "柯幻熊猫AI智能体",
-    "reason": "on colored graphic"
+    "text": "柯幻熊猫 AI 智能体",
+    "reason": "llm:body but complex background"
    },
    {
     "text": "郑州莱奥特科技",
-    "reason": "on colored graphic"
+    "reason": "llm:body but complex background"
    }
-  ]
+  ],
+  "source": "llm(gpt-5.6-luna)"
  },
  {
   "page": 2,
   "picture": "Page2 Background",
   "texts": [
    {
-    "text": "柯幻熊猫AI智能体",
-    "score": 0.991,
-    "x_pt": 58.56,
-    "y_pt": 195.84,
-    "w_pt": 403.2,
-    "h_pt": 49.44,
-    "size_pt": 47.8,
+    "text": "柯幻熊猫 AI 智能体",
+    "score": 1.0,
+    "x_pt": 59.04,
+    "y_pt": 198.24,
+    "w_pt": 399.84,
+    "h_pt": 40.32,
+    "size_pt": 44.2,
     "color": [
-     52,
-     68,
-     98
+     8,
+     41,
+     87
+    ],
+    "bold": true
+   },
+   {
+    "text": "以人工智能技术为核心，构建有温度、",
+    "score": 1.0,
+    "x_pt": 63.84,
+    "y_pt": 373.92,
+    "w_pt": 321.12,
+    "h_pt": 19.2,
+    "size_pt": 18.9,
+    "color": [
+     38,
+     59,
+     94
     ],
     "bold": false
    },
    {
-    "text": "郑州莱奥特科技",
-    "score": 0.996,
-    "x_pt": 59.52,
-    "y_pt": 263.52,
-    "w_pt": 232.8,
-    "h_pt": 34.08,
-    "size_pt": 33.3,
+    "text": "可进化、可落地的智能体解决方案，",
+    "score": 1.0,
+    "x_pt": 62.88,
+    "y_pt": 408.96,
+    "w_pt": 303.36,
+    "h_pt": 19.2,
+    "size_pt": 19.0,
     "color": [
-     105,
-     110,
-     129
+     38,
+     59,
+     94
+    ],
+    "bold": false
+   },
+   {
+    "text": "让智能体走进更多场景，创造更美好的未来。",
+    "score": 1.0,
+    "x_pt": 62.88,
+    "y_pt": 443.04,
+    "w_pt": 384.96,
+    "h_pt": 20.16,
+    "size_pt": 19.2,
+    "color": [
+     38,
+     59,
+     94
     ],
     "bold": false
    },
    {
     "text": "柯幻熊猫，让技术更有温度，让智能更贴近生活。",
-    "score": 0.977,
-    "x_pt": 61.92,
-    "y_pt": 559.2,
-    "w_pt": 327.84,
-    "h_pt": 18.24,
+    "score": 1.0,
+    "x_pt": 62.88,
+    "y_pt": 561.12,
+    "w_pt": 328.32,
+    "h_pt": 13.92,
     "size_pt": 14.9,
     "color": [
-     157,
-     166,
-     175
+     38,
+     59,
+     94
     ],
-    "bold": false
+    "bold": true
    }
   ],
   "protected": [
    {
     "text": "郑州莱奥特科技",
-    "reason": "header band"
+    "reason": "llm:logo"
    },
    {
     "text": "柯幻·让智能体有温度",
-    "reason": "header band"
-   },
-   {
-    "text": "以人工智能技术为核心，构建有温度、",
-    "reason": "complex background"
-   },
-   {
-    "text": "可进化、可落地的智能体解决方案，",
-    "reason": "complex background"
-   },
-   {
-    "text": "让智能体走进更多场景，创造更美好的未来。",
-    "reason": "complex background"
+    "reason": "llm:header"
    },
    {
     "text": "郑州莱奥特科技",
-    "reason": "footer band"
+    "reason": "llm:body but complex background"
+   },
+   {
+    "text": "郑州莱奥特科技",
+    "reason": "llm:footer"
    },
    {
     "text": "01",
-    "reason": "footer band"
+    "reason": "llm:page_number"
    }
-  ]
+  ],
+  "source": "llm(gpt-5.6-luna)"
  },
  {
   "page": 3,
@@ -101,91 +125,61 @@
   "texts": [
    {
     "text": "目录",
-    "score": 0.999,
-    "x_pt": 58.08,
-    "y_pt": 240.96,
-    "w_pt": 89.28,
-    "h_pt": 48.0,
-    "size_pt": 44.6,
+    "score": 1.0,
+    "x_pt": 61.92,
+    "y_pt": 244.8,
+    "w_pt": 81.12,
+    "h_pt": 39.84,
+    "size_pt": 40.6,
     "color": [
-     77,
-     106,
-     142
+     18,
+     58,
+     115
     ],
-    "bold": false
+    "bold": true
    },
    {
-    "text": "CONTENTS",
-    "score": 0.995,
-    "x_pt": 203.52,
-    "y_pt": 256.8,
-    "w_pt": 134.4,
-    "h_pt": 27.36,
-    "size_pt": 23.3,
+    "text": "关于柯幻熊猫 AI智能体",
+    "score": 1.0,
+    "x_pt": 107.04,
+    "y_pt": 398.88,
+    "w_pt": 170.88,
+    "h_pt": 17.28,
+    "size_pt": 15.9,
     "color": [
-     99,
-     188,
-     212
-    ],
-    "bold": false
-   },
-   {
-    "text": "关于柯幻熊猫AI智能体",
-    "score": 0.964,
-    "x_pt": 102.72,
-    "y_pt": 395.04,
-    "w_pt": 177.12,
-    "h_pt": 22.56,
-    "size_pt": 17.0,
-    "color": [
-     142,
-     149,
-     162
-    ],
-    "bold": false
-   },
-   {
-    "text": "应用场景与行业解决方案",
-    "score": 0.998,
-    "x_pt": 502.08,
-    "y_pt": 395.52,
-    "w_pt": 191.04,
-    "h_pt": 22.56,
-    "size_pt": 17.4,
-    "color": [
-     141,
-     149,
-     161
+     38,
+     58,
+     89
     ],
     "bold": false
    },
    {
     "text": "核心技术与产品体系",
-    "score": 0.996,
-    "x_pt": 76.32,
-    "y_pt": 479.52,
-    "w_pt": 200.64,
-    "h_pt": 35.04,
-    "size_pt": 22.3,
+    "score": 1.0,
+    "x_pt": 106.08,
+    "y_pt": 491.04,
+    "w_pt": 165.12,
+    "h_pt": 16.8,
+    "size_pt": 18.3,
     "color": [
-     66,
-     154,
-     174
+     38,
+     58,
+     89
     ],
     "bold": false
    },
    {
     "text": "未来规划与社会价值",
-    "score": 0.998,
-    "x_pt": 472.8,
-    "y_pt": 479.52,
-    "w_pt": 189.6,
-    "h_pt": 35.04,
-    "size_pt": 21.1,
+    "score": 1.0,
+    "x_pt": 504.0,
+    "y_pt": 491.04,
+    "w_pt": 169.92,
+    "h_pt": 16.8,
+    "size_pt": 18.9,
     "color": [
-     71,
-     141,
-     178
+     38,
+     58,
+     89
     ],
     "bold": false
    }
@@ -193,41 +187,62 @@
   "protected": [
    {
     "text": "郑州莱奥特科技",
-    "reason": "header band"
+    "reason": "llm:logo"
    },
    {
     "text": "柯幻·让智能体有温度",
-    "reason": "header band"
+    "reason": "llm:header"
+   },
+   {
+    "text": "CONTENTS",
+    "reason": "llm:body but complex background"
    },
    {
     "text": "01",
-    "reason": "numeric label"
+    "reason": "llm:badge"
    },
    {
     "text": "03",
-    "reason": "numeric label"
+    "reason": "llm:chart_label"
    },
    {
     "text": "03",
-    "reason": "numeric label"
+    "reason": "llm:badge"
    },
    {
-    "text": "07",
-    "reason": "numeric label"
+    "text": "应用场景与行业解决方案",
+    "reason": "llm:body but complex background"
    },
    {
-    "text": "15",
-    "reason": "numeric label"
-   },
-   {
-    "text": "郑州莱奥特科技",
-    "reason": "footer band"
+    "text": "11",
+    "reason": "llm:chart_label"
    },
    {
     "text": "02",
-    "reason": "footer band"
+    "reason": "llm:badge"
+   },
+   {
+    "text": "07",
+    "reason": "llm:chart_label"
+   },
+   {
+    "text": "04",
+    "reason": "llm:badge"
+   },
+   {
+    "text": "15",
+    "reason": "llm:chart_label"
+   },
+   {
+    "text": "郑州莱奥特科技",
+    "reason": "llm:footer"
+   },
+   {
+    "text": "02",
+    "reason": "llm:page_number"
    }
-  ]
+  ],
+  "source": "llm(gpt-5.6-luna)"
  },
  {
   "page": 4,
@@ -235,121 +250,166 @@
   "texts": [
    {
     "text": "柯幻熊猫智能体战略路线",
-    "score": 0.985,
-    "x_pt": 79.68,
-    "y_pt": 176.16,
-    "w_pt": 540.0,
-    "h_pt": 51.36,
-    "size_pt": 49.1,
+    "score": 1.0,
+    "x_pt": 78.72,
+    "y_pt": 177.12,
+    "w_pt": 542.88,
+    "h_pt": 45.12,
+    "size_pt": 49.4,
     "color": [
-     38,
-     40,
-     51
+     11,
+     16,
+     32
     ],
-    "bold": false
+    "bold": true
    },
    {
-    "text": "以人为本，让AI智能体走进更多真实场景",
-    "score": 0.989,
-    "x_pt": 83.04,
-    "y_pt": 243.36,
-    "w_pt": 504.0,
-    "h_pt": 26.88,
-    "size_pt": 27.3,
+    "text": "以人为本，让 AI 智能体走进更多真实场景",
+    "score": 1.0,
+    "x_pt": 84.0,
+    "y_pt": 244.32,
+    "w_pt": 502.08,
+    "h_pt": 25.92,
+    "size_pt": 26.4,
     "color": [
-     154,
-     158,
-     165
-    ],
-    "bold": false
-   },
-   {
-    "text": "技术筑基",
-    "score": 0.998,
-    "x_pt": 91.68,
-    "y_pt": 453.12,
-    "w_pt": 90.72,
-    "h_pt": 25.44,
-    "size_pt": 22.7,
-    "color": [
-     92,
-     97,
-     113
-    ],
-    "bold": false
-   },
-   {
-    "text": "场景深耕",
-    "score": 0.997,
-    "x_pt": 268.8,
-    "y_pt": 452.64,
-    "w_pt": 92.64,
-    "h_pt": 27.36,
-    "size_pt": 23.2,
-    "color": [
-     102,
-     110,
-     124
-    ],
-    "bold": false
-   },
-   {
-    "text": "生态共建",
-    "score": 0.998,
-    "x_pt": 475.2,
-    "y_pt": 452.64,
-    "w_pt": 92.16,
-    "h_pt": 27.36,
-    "size_pt": 23.0,
-    "color": [
-     93,
-     98,
+     89,
+     96,
      110
     ],
     "bold": false
    },
    {
-    "text": "价值普惠",
-    "score": 0.998,
-    "x_pt": 673.44,
-    "y_pt": 453.6,
-    "w_pt": 91.68,
-    "h_pt": 25.44,
-    "size_pt": 22.9,
+    "text": "构建多模态能力",
+    "score": 1.0,
+    "x_pt": 95.04,
+    "y_pt": 498.24,
+    "w_pt": 120.96,
+    "h_pt": 16.8,
+    "size_pt": 17.3,
     "color": [
-     88,
-     93,
-     106
+     89,
+     96,
+     110
     ],
     "bold": false
    },
    {
-    "text": "打唐核心算法",
-    "score": 0.992,
-    "x_pt": 93.12,
-    "y_pt": 523.2,
-    "w_pt": 108.0,
-    "h_pt": 20.64,
-    "size_pt": 18.0,
+    "text": "打磨核心算法",
+    "score": 1.0,
+    "x_pt": 95.04,
+    "y_pt": 525.12,
+    "w_pt": 104.16,
+    "h_pt": 15.84,
+    "size_pt": 17.4,
     "color": [
-     111,
-     114,
-     122
+     89,
+     96,
+     110
+    ],
+    "bold": false
+   },
+   {
+    "text": "场景深耕",
+    "score": 1.0,
+    "x_pt": 272.16,
+    "y_pt": 455.04,
+    "w_pt": 85.92,
+    "h_pt": 21.12,
+    "size_pt": 21.5,
+    "color": [
+     17,
+     24,
+     39
+    ],
+    "bold": true
+   },
+   {
+    "text": "聚焦行业应用",
+    "score": 1.0,
+    "x_pt": 273.12,
+    "y_pt": 498.24,
+    "w_pt": 103.68,
+    "h_pt": 16.8,
+    "size_pt": 17.3,
+    "color": [
+     89,
+     96,
+     110
+    ],
+    "bold": false
+   },
+   {
+    "text": "推动落地实践",
+    "score": 1.0,
+    "x_pt": 273.12,
+    "y_pt": 525.12,
+    "w_pt": 103.68,
+    "h_pt": 15.84,
+    "size_pt": 17.3,
+    "color": [
+     89,
+     96,
+     110
+    ],
+    "bold": false
+   },
+   {
+    "text": "开放平台能力",
+    "score": 1.0,
+    "x_pt": 479.04,
+    "y_pt": 499.2,
+    "w_pt": 103.2,
+    "h_pt": 15.84,
+    "size_pt": 17.2,
+    "color": [
+     89,
+     96,
+     110
     ],
     "bold": false
    },
    {
     "text": "连接更多伙伴",
-    "score": 0.989,
-    "x_pt": 476.64,
-    "y_pt": 523.2,
-    "w_pt": 108.0,
-    "h_pt": 20.64,
-    "size_pt": 18.0,
+    "score": 1.0,
+    "x_pt": 479.04,
+    "y_pt": 525.12,
+    "w_pt": 104.16,
+    "h_pt": 15.84,
+    "size_pt": 17.4,
     "color": [
-     161,
-     163,
-     171
+     89,
+     96,
+     110
+    ],
+    "bold": false
+   },
+   {
+    "text": "让智能体走进生活",
+    "score": 1.0,
+    "x_pt": 674.88,
+    "y_pt": 499.2,
+    "w_pt": 138.24,
+    "h_pt": 15.84,
+    "size_pt": 17.3,
+    "color": [
+     89,
+     96,
+     110
+    ],
+    "bold": false
+   },
+   {
+    "text": "创造更大社会价值",
+    "score": 1.0,
+    "x_pt": 675.84,
+    "y_pt": 525.12,
+    "w_pt": 137.28,
+    "h_pt": 15.84,
+    "size_pt": 17.2,
+    "color": [
+     89,
+     96,
+     110
     ],
     "bold": false
    }
@@ -357,183 +417,232 @@
   "protected": [
    {
     "text": "郑州莱奥特科技",
-    "reason": "header band"
+    "reason": "llm:logo"
    },
    {
     "text": "柯幻·让智能体有温度",
-    "reason": "header band"
+    "reason": "llm:header"
    },
    {
     "text": "01",
-    "reason": "numeric label"
+    "reason": "llm:badge"
+   },
+   {
+    "text": "技术筑基",
+    "reason": "llm:body but complex background"
    },
    {
     "text": "02",
-    "reason": "numeric label"
+    "reason": "llm:badge"
    },
    {
     "text": "03",
-    "reason": "numeric label"
+    "reason": "llm:badge"
+   },
+   {
+    "text": "生态共建",
+    "reason": "llm:body but complex background"
    },
    {
     "text": "04",
-    "reason": "numeric label"
+    "reason": "llm:badge"
    },
    {
-    "text": "构建多模态能力",
-    "reason": "complex background"
-   },
-   {
-    "text": "聚焦行业应用",
-    "reason": "complex background"
-   },
-   {
-    "text": "开放平台能力",
-    "reason": "complex background"
-   },
-   {
-    "text": "让智能体走进生活",
-    "reason": "complex background"
-   },
-   {
-    "text": "推动落地实践",
-    "reason": "complex background"
-   },
-   {
-    "text": "创造更大社会价值",
-    "reason": "complex background"
+    "text": "价值普惠",
+    "reason": "llm:body but complex background"
    },
    {
     "text": "郑州莱奥特科技",
-    "reason": "footer band"
+    "reason": "llm:footer"
    },
    {
     "text": "01",
-    "reason": "footer band"
+    "reason": "llm:page_number"
    }
-  ]
+  ],
+  "source": "llm(gpt-5.6-luna)"
  },
  {
   "page": 5,
   "picture": "Page5 Background",
   "texts": [
    {
-    "text": "核心能力",
-    "score": 0.996,
-    "x_pt": 76.8,
-    "y_pt": 175.2,
-    "w_pt": 194.4,
-    "h_pt": 52.32,
-    "size_pt": 48.6,
+    "text": "以技术与场景双轮驱动，打造更有温度的 AI 智能体",
+    "score": 1.0,
+    "x_pt": 82.08,
+    "y_pt": 241.92,
+    "w_pt": 588.0,
+    "h_pt": 25.92,
+    "size_pt": 25.5,
     "color": [
-     32,
-     33,
-     44
+     75,
+     85,
+     99
     ],
     "bold": false
    },
    {
-    "text": "以技术与场景双轮驱动，打造更有温度的AI智能体",
-    "score": 0.992,
-    "x_pt": 80.64,
-    "y_pt": 240.96,
-    "w_pt": 590.88,
-    "h_pt": 26.88,
-    "size_pt": 26.3,
+    "text": "多模态理解与生成",
+    "score": 1.0,
+    "x_pt": 433.92,
+    "y_pt": 340.8,
+    "w_pt": 181.92,
+    "h_pt": 22.08,
+    "size_pt": 22.7,
     "color": [
-     156,
-     158,
-     165
+     11,
+     18,
+     32
     ],
-    "bold": false
+    "bold": true
    },
    {
     "text": "实现更自然的交互体验。",
-    "score": 0.996,
-    "x_pt": 430.56,
-    "y_pt": 402.24,
-    "w_pt": 183.84,
-    "h_pt": 22.08,
-    "size_pt": 16.7,
+    "score": 1.0,
+    "x_pt": 432.96,
+    "y_pt": 405.12,
+    "w_pt": 179.04,
+    "h_pt": 16.8,
+    "size_pt": 16.3,
     "color": [
-     165,
-     169,
-     175
-    ],
-    "bold": false
-   },
-   {
-    "text": "行业场景适配",
-    "score": 0.997,
-    "x_pt": 432.0,
-    "y_pt": 478.08,
-    "w_pt": 142.56,
-    "h_pt": 24.96,
-    "size_pt": 23.8,
-    "color": [
-     87,
-     89,
-     97
-    ],
-    "bold": false
-   },
-   {
-    "text": "面向多行业深度优化，快速适配真实业务",
-    "score": 0.991,
-    "x_pt": 432.0,
-    "y_pt": 516.96,
-    "w_pt": 321.12,
-    "h_pt": 19.2,
-    "size_pt": 17.8,
-    "color": [
+     107,
      114,
-     117,
-     124
-    ],
-    "bold": false
-   },
-   {
-    "text": "场景，提升应用价值。",
-    "score": 0.995,
-    "x_pt": 430.56,
-    "y_pt": 542.88,
-    "w_pt": 165.6,
-    "h_pt": 18.72,
-    "size_pt": 16.6,
-    "color": [
-     116,
-     119,
      128
     ],
     "bold": false
    },
    {
-    "text": "开放生态能力",
-    "score": 0.999,
-    "x_pt": 430.56,
-    "y_pt": 760.32,
-    "w_pt": 141.12,
-    "h_pt": 24.96,
-    "size_pt": 23.5,
+    "text": "行业场景适配",
+    "score": 1.0,
+    "x_pt": 432.96,
+    "y_pt": 480.0,
+    "w_pt": 139.2,
+    "h_pt": 21.12,
+    "size_pt": 23.2,
     "color": [
-     88,
-     89,
-     96
+     11,
+     18,
+     32
+    ],
+    "bold": true
+   },
+   {
+    "text": "面向多行业深度优化，快速适配真实业务",
+    "score": 1.0,
+    "x_pt": 432.96,
+    "y_pt": 517.92,
+    "w_pt": 319.2,
+    "h_pt": 17.28,
+    "size_pt": 17.7,
+    "color": [
+     107,
+     114,
+     128
+    ],
+    "bold": false
+   },
+   {
+    "text": "场景，提升应用价值。",
+    "score": 1.0,
+    "x_pt": 432.96,
+    "y_pt": 543.84,
+    "w_pt": 162.24,
+    "h_pt": 15.36,
+    "size_pt": 16.2,
+    "color": [
+     107,
+     114,
+     128
+    ],
+    "bold": true
+   },
+   {
+    "text": "智能决策与执行",
+    "score": 1.0,
+    "x_pt": 432.96,
+    "y_pt": 619.2,
+    "w_pt": 163.2,
+    "h_pt": 21.6,
+    "size_pt": 23.3,
+    "color": [
+     11,
+     18,
+     32
+    ],
+    "bold": true
+   },
+   {
+    "text": "具备自主规划与任务执行能力，",
+    "score": 1.0,
+    "x_pt": 432.96,
+    "y_pt": 658.08,
+    "w_pt": 233.28,
+    "h_pt": 16.8,
+    "size_pt": 16.7,
+    "color": [
+     107,
+     114,
+     128
+    ],
+    "bold": false
+   },
+   {
+    "text": "持续学习迭代，提供高效可靠的服务。",
+    "score": 1.0,
+    "x_pt": 432.0,
+    "y_pt": 683.04,
+    "w_pt": 286.08,
+    "h_pt": 16.8,
+    "size_pt": 16.8,
+    "color": [
+     107,
+     114,
+     128
     ],
     "bold": false
    },
    {
     "text": "提供灵活的接口与平台能力，",
-    "score": 0.995,
-    "x_pt": 432.0,
-    "y_pt": 799.2,
-    "w_pt": 220.32,
-    "h_pt": 20.16,
+    "score": 1.0,
+    "x_pt": 432.96,
+    "y_pt": 801.12,
+    "w_pt": 217.92,
+    "h_pt": 16.8,
+    "size_pt": 16.8,
+    "color": [
+     107,
+     114,
+     128
+    ],
+    "bold": false
+   },
+   {
+    "text": "携手合作伙伴共建智能体生态。",
+    "score": 1.0,
+    "x_pt": 432.96,
+    "y_pt": 827.04,
+    "w_pt": 236.16,
+    "h_pt": 15.84,
     "size_pt": 16.9,
     "color": [
-     169,
-     171,
-     178
+     107,
+     114,
+     128
+    ],
+    "bold": false
+   },
+   {
+    "text": "用 AI 创造更美好的未来。",
+    "score": 1.0,
+    "x_pt": 615.84,
+    "y_pt": 1044.96,
+    "w_pt": 170.4,
+    "h_pt": 14.88,
+    "size_pt": 14.2,
+    "color": [
+     75,
+     85,
+     99
     ],
     "bold": false
    }
@@ -541,53 +650,38 @@
   "protected": [
    {
     "text": "郑州莱奥特科技",
-    "reason": "header band"
+    "reason": "llm:logo"
    },
    {
     "text": "柯幻·让智能体有温度",
-    "reason": "header band"
+    "reason": "llm:header"
    },
    {
-    "text": "多模态理解与生成",
-    "reason": "complex background"
+    "text": "核心能力",
+    "reason": "llm:body but complex background"
    },
    {
     "text": "支持文本、图像、语音等多模态融合，",
-    "reason": "complex background"
+    "reason": "llm:body but complex background"
    },
    {
-    "text": "智能决策与执行",
-    "reason": "complex background"
+    "text": "开放生态能力",
+    "reason": "llm:body but complex background"
    },
    {
-    "text": "具备自主规划与任务执行能力，",
-    "reason": "complex background"
-   },
-   {
-    "text": "持续学习送代，提供高效可靠的服务。",
-    "reason": "complex background"
-   },
-   {
-    "text": "携手合作伙伴共建智能体生态。",
-    "reason": "complex background"
-   },
-   {
-    "text": "让智能体更懂行业、更懂人，",
-    "reason": "complex background"
-   },
-   {
-    "text": "用AI创造更美好的未来。",
-    "reason": "complex background"
+    "text": "让智能体更懂行业，更懂人，",
+    "reason": "llm:body but complex background"
    },
    {
     "text": "郑州莱奥特科技",
-    "reason": "footer band"
+    "reason": "llm:footer"
    },
    {
     "text": "02",
-    "reason": "footer band"
+    "reason": "llm:page_number"
    }
-  ]
+  ],
+  "source": "llm(gpt-5.6-luna)"
  },
  {
   "page": 6,
@@ -595,200 +689,201 @@
   "texts": [
    {
     "text": "安全与合规",
-    "score": 0.998,
-    "x_pt": 51.36,
-    "y_pt": 159.84,
-    "w_pt": 291.36,
-    "h_pt": 63.84,
-    "size_pt": 58.3,
+    "score": 1.0,
+    "x_pt": 55.2,
+    "y_pt": 163.2,
+    "w_pt": 284.64,
+    "h_pt": 53.28,
+    "size_pt": 56.9,
     "color": [
-     41,
-     63,
-     101
+     8,
+     43,
+     91
     ],
-    "bold": false
+    "bold": true
    },
    {
     "text": "构建可信赖的智能体服务体系",
-    "score": 0.995,
-    "x_pt": 53.76,
-    "y_pt": 239.04,
-    "w_pt": 372.96,
-    "h_pt": 28.8,
-    "size_pt": 28.7,
-    "color": [
-     139,
-     146,
-     160
-    ],
-    "bold": false
-   },
-   {
-    "text": "昆",
-    "score": 0.514,
-    "x_pt": 485.28,
-    "y_pt": 375.36,
-    "w_pt": 98.4,
-    "h_pt": 94.08,
-    "size_pt": 98.4,
-    "color": [
-     58,
-     168,
-     200
-    ],
-    "bold": false
-   },
-   {
-    "text": "数据安全保护",
-    "score": 0.999,
-    "x_pt": 93.12,
-    "y_pt": 506.88,
-    "w_pt": 165.6,
-    "h_pt": 29.28,
-    "size_pt": 27.6,
-    "color": [
-     84,
-     97,
-     128
-    ],
-    "bold": false
-   },
-   {
-    "text": "合规规范管理",
-    "score": 0.998,
-    "x_pt": 482.88,
-    "y_pt": 506.88,
-    "w_pt": 158.88,
-    "h_pt": 29.28,
-    "size_pt": 26.5,
+    "score": 1.0,
+    "x_pt": 54.24,
+    "y_pt": 240.0,
+    "w_pt": 372.0,
+    "h_pt": 26.88,
+    "size_pt": 28.6,
     "color": [
      83,
-     97,
-     126
+     98,
+     118
     ],
     "bold": false
    },
    {
     "text": "机制，保障数据安全与隐私。",
-    "score": 0.994,
-    "x_pt": 92.16,
-    "y_pt": 589.44,
-    "w_pt": 231.84,
-    "h_pt": 20.64,
-    "size_pt": 17.8,
+    "score": 1.0,
+    "x_pt": 93.12,
+    "y_pt": 589.92,
+    "w_pt": 229.92,
+    "h_pt": 19.2,
+    "size_pt": 17.7,
     "color": [
-     165,
-     170,
-     181
+     83,
+     98,
+     118
+    ],
+    "bold": false
+   },
+   {
+    "text": "合规规范管理",
+    "score": 1.0,
+    "x_pt": 482.88,
+    "y_pt": 508.32,
+    "w_pt": 156.96,
+    "h_pt": 24.96,
+    "size_pt": 26.2,
+    "color": [
+     8,
+     43,
+     91
+    ],
+    "bold": true
+   },
+   {
+    "text": "遵循国家法律法规与行业标准，",
+    "score": 1.0,
+    "x_pt": 481.92,
+    "y_pt": 559.2,
+    "w_pt": 252.0,
+    "h_pt": 17.76,
+    "size_pt": 18.0,
+    "color": [
+     83,
+     98,
+     118
     ],
     "bold": false
    },
    {
     "text": "建立健全的合规管理体系。",
-    "score": 0.996,
-    "x_pt": 481.44,
-    "y_pt": 589.44,
-    "w_pt": 215.52,
-    "h_pt": 20.64,
-    "size_pt": 18.0,
-    "color": [
-     162,
-     169,
-     180
-    ],
-    "bold": false
-   },
-   {
-    "text": "内容安全审核",
-    "score": 0.997,
-    "x_pt": 93.12,
-    "y_pt": 885.12,
-    "w_pt": 165.6,
-    "h_pt": 28.8,
-    "size_pt": 27.6,
-    "color": [
-     78,
-     91,
-     123
-    ],
-    "bold": false
-   },
-   {
-    "text": "责任可追溯",
-    "score": 0.959,
-    "x_pt": 480.96,
-    "y_pt": 883.2,
-    "w_pt": 138.24,
-    "h_pt": 30.72,
-    "size_pt": 27.6,
-    "color": [
-     95,
-     109,
-     141
-    ],
-    "bold": false
-   },
-   {
-    "text": "完整的日志审计与追溯机制，",
-    "score": 0.932,
+    "score": 1.0,
     "x_pt": 481.92,
-    "y_pt": 935.52,
-    "w_pt": 232.8,
-    "h_pt": 20.64,
+    "y_pt": 589.92,
+    "w_pt": 215.04,
+    "h_pt": 18.24,
     "size_pt": 17.9,
     "color": [
-     161,
-     168,
-     178
+     83,
+     98,
+     118
+    ],
+    "bold": false
+   },
+   {
+    "text": "多维度内容识别与风险过滤，",
+    "score": 1.0,
+    "x_pt": 94.08,
+    "y_pt": 936.0,
+    "w_pt": 228.0,
+    "h_pt": 19.2,
+    "size_pt": 17.5,
+    "color": [
+     83,
+     98,
+     118
     ],
     "bold": false
    },
    {
     "text": "杜绝有害信息，守护健康生态。",
-    "score": 0.994,
-    "x_pt": 91.68,
-    "y_pt": 966.24,
-    "w_pt": 251.04,
-    "h_pt": 21.12,
+    "score": 1.0,
+    "x_pt": 93.12,
+    "y_pt": 968.16,
+    "w_pt": 249.12,
+    "h_pt": 18.72,
+    "size_pt": 17.8,
+    "color": [
+     83,
+     98,
+     118
+    ],
+    "bold": false
+   },
+   {
+    "text": "责任可追溯",
+    "score": 1.0,
+    "x_pt": 482.88,
+    "y_pt": 886.56,
+    "w_pt": 133.92,
+    "h_pt": 24.96,
+    "size_pt": 26.8,
+    "color": [
+     8,
+     43,
+     91
+    ],
+    "bold": true
+   },
+   {
+    "text": "完整的日志审计与追溯机制，",
+    "score": 1.0,
+    "x_pt": 482.88,
+    "y_pt": 936.0,
+    "w_pt": 232.32,
+    "h_pt": 19.2,
     "size_pt": 17.9,
     "color": [
-     121,
-     125,
-     137
+     83,
+     98,
+     118
+    ],
+    "bold": false
+   },
+   {
+    "text": "确保使用过程可监管、可追溯。",
+    "score": 1.0,
+    "x_pt": 481.92,
+    "y_pt": 969.12,
+    "w_pt": 252.96,
+    "h_pt": 17.76,
+    "size_pt": 18.1,
+    "color": [
+     83,
+     98,
+     118
     ],
     "bold": false
    }
   ],
   "protected": [
    {
-    "text": "郑州莱奥特科技",
-    "reason": "header band"
+    "text": "郑州菜奥特科技",
+    "reason": "llm:logo"
    },
    {
     "text": "柯幻·让智能体有温度",
-    "reason": "header band"
+    "reason": "llm:header"
+   },
+   {
+    "text": "数据安全保护",
+    "reason": "llm:body but complex background"
    },
    {
     "text": "全链路数据加密，完善的权限管控",
-    "reason": "complex background"
+    "reason": "llm:body but complex background"
    },
    {
-    "text": "遵循国家法律法规与行业标准，",
-    "reason": "complex background"
+    "text": "内容安全审核",
+    "reason": "llm:body but complex background"
    },
    {
-    "text": "多维度内容识别与风险过滤，",
-    "reason": "complex background"
+    "text": "郑州菜奥特科技",
+    "reason": "llm:footer"
    },
    {
-    "text": "确保使用过程可监管、可追溯。",
-    "reason": "complex background"
-   },
-   {
-    "text": "郑州莱奥特科技",
-    "reason": "footer band"
+    "text": "3",
+    "reason": "llm:page_number"
    }
-  ]
+  ],
+  "source": "llm(gpt-5.6-luna)"
  },
  {
   "page": 7,
@@ -796,166 +891,151 @@
   "texts": [
    {
     "text": "应用场景",
-    "score": 0.998,
-    "x_pt": 52.8,
-    "y_pt": 159.84,
-    "w_pt": 233.28,
-    "h_pt": 61.92,
-    "size_pt": 58.3,
+    "score": 1.0,
+    "x_pt": 54.24,
+    "y_pt": 163.2,
+    "w_pt": 227.04,
+    "h_pt": 53.28,
+    "size_pt": 56.8,
     "color": [
-     47,
-     67,
-     102
+     8,
+     45,
+     104
     ],
-    "bold": false
+    "bold": true
    },
    {
     "text": "三大场景落地，赋能千行百业",
-    "score": 0.992,
+    "score": 1.0,
     "x_pt": 55.2,
-    "y_pt": 239.04,
+    "y_pt": 240.48,
     "w_pt": 373.92,
-    "h_pt": 28.8,
+    "h_pt": 26.88,
     "size_pt": 28.8,
     "color": [
-     142,
-     148,
-     161
+     89,
+     100,
+     116
     ],
     "bold": false
    },
    {
     "text": "企业办公",
-    "score": 0.999,
-    "x_pt": 495.84,
-    "y_pt": 432.96,
-    "w_pt": 111.36,
-    "h_pt": 29.76,
-    "size_pt": 27.8,
+    "score": 1.0,
+    "x_pt": 498.24,
+    "y_pt": 434.88,
+    "w_pt": 106.56,
+    "h_pt": 24.96,
+    "size_pt": 26.6,
     "color": [
-     83,
-     95,
-     126
+     8,
+     45,
+     104
     ],
-    "bold": false
+    "bold": true
    },
    {
     "text": "智能助理、知识管理、流程协同，",
-    "score": 0.971,
-    "x_pt": 495.84,
-    "y_pt": 480.96,
-    "w_pt": 261.6,
-    "h_pt": 21.6,
-    "size_pt": 17.4,
-    "color": [
-     120,
-     124,
-     136
-    ],
-    "bold": false
-   },
-   {
-    "text": "提升组织效率，助力企业数字化转型。",
-    "score": 0.989,
-    "x_pt": 496.32,
-    "y_pt": 510.24,
-    "w_pt": 299.04,
+    "score": 1.0,
+    "x_pt": 498.24,
+    "y_pt": 481.92,
+    "w_pt": 258.72,
     "h_pt": 19.2,
-    "size_pt": 17.6,
+    "size_pt": 17.2,
     "color": [
-     164,
-     169,
-     180
+     89,
+     100,
+     116
     ],
     "bold": false
    },
    {
     "text": "政务服务",
     "score": 1.0,
-    "x_pt": 495.84,
-    "y_pt": 701.28,
-    "w_pt": 111.36,
-    "h_pt": 29.76,
-    "size_pt": 27.8,
+    "x_pt": 496.8,
+    "y_pt": 702.24,
+    "w_pt": 108.0,
+    "h_pt": 25.92,
+    "size_pt": 27.0,
     "color": [
-     87,
-     102,
-     131
+     8,
+     45,
+     104
+    ],
+    "bold": true
+   },
+   {
+    "text": "智能问答、事项办理、信息整合，",
+    "score": 1.0,
+    "x_pt": 498.24,
+    "y_pt": 750.24,
+    "w_pt": 258.72,
+    "h_pt": 18.72,
+    "size_pt": 17.2,
+    "color": [
+     89,
+     100,
+     116
     ],
     "bold": false
    },
    {
-    "text": "智能问答、事项办理、信息整合，",
-    "score": 0.948,
-    "x_pt": 497.28,
-    "y_pt": 750.72,
-    "w_pt": 260.16,
-    "h_pt": 18.72,
-    "size_pt": 17.3,
+    "text": "提升政务服务效能与公众体验。",
+    "score": 1.0,
+    "x_pt": 496.8,
+    "y_pt": 780.96,
+    "w_pt": 243.36,
+    "h_pt": 17.28,
+    "size_pt": 17.4,
     "color": [
-     168,
-     175,
-     183
+     89,
+     100,
+     116
     ],
     "bold": false
    },
    {
     "text": "教育科研",
-    "score": 0.999,
-    "x_pt": 496.32,
-    "y_pt": 957.6,
-    "w_pt": 111.36,
-    "h_pt": 29.76,
-    "size_pt": 27.8,
+    "score": 1.0,
+    "x_pt": 498.24,
+    "y_pt": 959.04,
+    "w_pt": 108.0,
+    "h_pt": 25.44,
+    "size_pt": 27.0,
     "color": [
-     83,
-     99,
-     130
+     8,
+     45,
+     104
     ],
-    "bold": false
+    "bold": true
    },
    {
     "text": "智能教学、个性化学习、科研辅助，",
-    "score": 0.979,
-    "x_pt": 497.76,
+    "score": 1.0,
+    "x_pt": 498.24,
     "y_pt": 1006.08,
-    "w_pt": 281.76,
-    "h_pt": 18.72,
+    "w_pt": 280.8,
+    "h_pt": 19.2,
     "size_pt": 17.6,
     "color": [
-     161,
-     167,
-     174
+     89,
+     100,
+     116
     ],
     "bold": false
    },
    {
     "text": "促进教育公平与创新发展。",
-    "score": 0.994,
-    "x_pt": 496.32,
-    "y_pt": 1035.36,
-    "w_pt": 211.2,
-    "h_pt": 21.6,
-    "size_pt": 17.6,
+    "score": 1.0,
+    "x_pt": 496.8,
+    "y_pt": 1037.28,
+    "w_pt": 209.28,
+    "h_pt": 17.28,
+    "size_pt": 17.4,
     "color": [
-     119,
-     123,
-     137
-    ],
-    "bold": false
-   },
-   {
-    "text": "注：以上为典型应用场景示例，具体落地方案可根据实际需求定制。",
-    "score": 0.992,
-    "x_pt": 52.8,
-    "y_pt": 1094.4,
-    "w_pt": 473.76,
-    "h_pt": 18.24,
-    "size_pt": 15.8,
-    "color": [
-     126,
-     131,
-     147
+     89,
+     100,
+     116
     ],
     "bold": false
    }
@@ -963,21 +1043,30 @@
   "protected": [
    {
     "text": "郑州莱奥特科技",
-    "reason": "header band"
+    "reason": "llm:logo"
    },
    {
     "text": "柯幻·让智能体有温度",
-    "reason": "header band"
+    "reason": "llm:header"
    },
    {
-    "text": "提升政务服务效能与公众体验。",
-    "reason": "complex background"
+    "text": "提升组织效率，助力企业数字化转型。",
+    "reason": "llm:body but complex background"
+   },
+   {
+    "text": "注：以上为典型应用场景示例，具体落地方案可根据实际需求定制。",
+    "reason": "llm:body but complex background"
    },
    {
     "text": "郑州莱奥特科技",
-    "reason": "footer band"
+    "reason": "llm:footer"
+   },
+   {
+    "text": "4",
+    "reason": "llm:page_number"
    }
-  ]
+  ],
+  "source": "llm(gpt-5.6-luna)"
  },
  {
   "page": 8,
@@ -985,136 +1074,136 @@
   "texts": [
    {
     "text": "市场趋势",
-    "score": 0.93,
-    "x_pt": 86.4,
-    "y_pt": 174.24,
-    "w_pt": 179.52,
-    "h_pt": 49.44,
-    "size_pt": 44.9,
+    "score": 1.0,
+    "x_pt": 88.8,
+    "y_pt": 178.08,
+    "w_pt": 173.28,
+    "h_pt": 37.44,
+    "size_pt": 43.3,
     "color": [
-     51,
-     75,
-     107
+     18,
+     52,
+     93
+    ],
+    "bold": true
+   },
+   {
+    "text": "AI 智能体加速渗透，行业应用进入规模化落地阶段",
+    "score": 1.0,
+    "x_pt": 87.84,
+    "y_pt": 247.68,
+    "w_pt": 614.4,
+    "h_pt": 26.88,
+    "size_pt": 27.0,
+    "color": [
+     23,
+     56,
+     95
     ],
     "bold": false
    },
    {
-    "text": "企业引入AI智能体的核心动因",
-    "score": 0.986,
-    "x_pt": 450.72,
-    "y_pt": 380.16,
-    "w_pt": 260.16,
-    "h_pt": 21.6,
-    "size_pt": 19.4,
+    "text": "中国 AI 智能体市场规模（亿元）",
+    "score": 1.0,
+    "x_pt": 69.12,
+    "y_pt": 382.08,
+    "w_pt": 265.92,
+    "h_pt": 18.72,
+    "size_pt": 17.7,
     "color": [
-     100,
-     119,
-     144
+     18,
+     56,
+     95
     ],
-    "bold": false
+    "bold": true
    },
    {
-    "text": "优化客户体验",
-    "score": 0.998,
-    "x_pt": 444.0,
-    "y_pt": 602.88,
-    "w_pt": 99.84,
-    "h_pt": 20.64,
-    "size_pt": 16.6,
+    "text": "企业引入 AI 智能体的核心动因",
+    "score": 1.0,
+    "x_pt": 451.2,
+    "y_pt": 382.08,
+    "w_pt": 258.72,
+    "h_pt": 17.76,
+    "size_pt": 18.4,
     "color": [
-     148,
-     160,
-     172
+     18,
+     56,
+     95
     ],
-    "bold": false
-   },
-   {
-    "text": "降低人力成本",
-    "score": 0.998,
-    "x_pt": 444.96,
-    "y_pt": 713.76,
-    "w_pt": 99.36,
-    "h_pt": 20.64,
-    "size_pt": 16.6,
-    "color": [
-     144,
-     157,
-     169
-    ],
-    "bold": false
-   },
-   {
-    "text": "图1中国AI智能体市场规模及预测",
-    "score": 0.992,
-    "x_pt": 86.88,
-    "y_pt": 840.48,
-    "w_pt": 249.6,
-    "h_pt": 18.24,
-    "size_pt": 16.7,
-    "color": [
-     108,
-     117,
-     135
-    ],
-    "bold": false
-   },
-   {
-    "text": "图2企业引I入AI智能体的核心动因占比",
-    "score": 0.94,
-    "x_pt": 467.52,
-    "y_pt": 839.52,
-    "w_pt": 285.6,
-    "h_pt": 19.68,
-    "size_pt": 16.1,
-    "color": [
-     151,
-     163,
-     175
-    ],
-    "bold": false
+    "bold": true
    },
    {
     "text": "数据来源：行业公开资料整理",
-    "score": 0.987,
-    "x_pt": 87.36,
-    "y_pt": 869.28,
-    "w_pt": 201.12,
-    "h_pt": 17.76,
-    "size_pt": 15.5,
+    "score": 1.0,
+    "x_pt": 87.84,
+    "y_pt": 870.24,
+    "w_pt": 198.24,
+    "h_pt": 15.36,
+    "size_pt": 15.2,
     "color": [
-     158,
-     163,
-     175
+     122,
+     135,
+     152
     ],
     "bold": false
    },
    {
-    "text": "结论：AI智能体市场保持高速增长，企业应用意愿持续提升，",
-    "score": 0.985,
-    "x_pt": 48.96,
-    "y_pt": 991.68,
-    "w_pt": 634.56,
-    "h_pt": 24.48,
-    "size_pt": 23.1,
+    "text": "数据来源：行业调研统计",
+    "score": 1.0,
+    "x_pt": 468.96,
+    "y_pt": 870.24,
+    "w_pt": 166.08,
+    "h_pt": 15.36,
+    "size_pt": 15.1,
     "color": [
-     119,
-     131,
-     149
+     122,
+     135,
+     152
+    ],
+    "bold": false
+   },
+   {
+    "text": "结论：",
+    "score": 1.0,
+    "x_pt": 48.96,
+    "y_pt": 993.12,
+    "w_pt": 54.24,
+    "h_pt": 21.12,
+    "size_pt": 18.1,
+    "color": [
+     18,
+     56,
+     95
+    ],
+    "bold": true
+   },
+   {
+    "text": "AI 智能体市场保持高速增长，企业应用意愿持续提升，",
+    "score": 1.0,
+    "x_pt": 118.08,
+    "y_pt": 992.16,
+    "w_pt": 553.92,
+    "h_pt": 24.0,
+    "size_pt": 22.4,
+    "color": [
+     18,
+     56,
+     95
     ],
     "bold": false
    },
    {
     "text": "未来将在更多行业实现规模化落地，释放更大价值。",
-    "score": 0.994,
-    "x_pt": 118.56,
-    "y_pt": 1030.56,
-    "w_pt": 535.2,
-    "h_pt": 24.0,
-    "size_pt": 23.3,
+    "score": 1.0,
+    "x_pt": 119.04,
+    "y_pt": 1031.04,
+    "w_pt": 533.76,
+    "h_pt": 21.12,
+    "size_pt": 23.2,
     "color": [
-     119,
-     132,
-     149
+     18,
+     56,
+     95
     ],
     "bold": false
    }
@@ -1122,105 +1211,118 @@
   "protected": [
    {
     "text": "郑州莱奥特科技",
-    "reason": "header band"
+    "reason": "llm:logo"
    },
    {
     "text": "柯幻·让智能体有温度",
-    "reason": "header band"
-   },
-   {
-    "text": "AI智能体加速渗透，行业应用进入规模化落地阶段",
-    "reason": "complex background"
-   },
-   {
-    "text": "中国AI智能体市场规模（亿元）",
-    "reason": "complex background"
+    "reason": "llm:header"
    },
    {
     "text": "2,500",
-    "reason": "numeric label"
-   },
-   {
-    "text": "2,360",
-    "reason": "numeric label"
-   },
-   {
-    "text": "提升运营效率",
-    "reason": "complex background"
-   },
-   {
-    "text": "62%",
-    "reason": "numeric label"
+    "reason": "llm:chart_label"
    },
    {
     "text": "2,000",
-    "reason": "numeric label"
-   },
-   {
-    "text": "1,680",
-    "reason": "numeric label"
+    "reason": "llm:chart_label"
    },
    {
     "text": "1,500",
-    "reason": "numeric label"
-   },
-   {
-    "text": "1,120",
-    "reason": "numeric label"
-   },
-   {
-    "text": "48%",
-    "reason": "numeric label"
+    "reason": "llm:chart_label"
    },
    {
     "text": "1,000",
-    "reason": "numeric label"
-   },
-   {
-    "text": "680",
-    "reason": "numeric label"
+    "reason": "llm:chart_label"
    },
    {
     "text": "500",
-    "reason": "numeric label"
+    "reason": "llm:chart_label"
+   },
+   {
+    "text": "0",
+    "reason": "llm:chart_label"
    },
    {
     "text": "320",
-    "reason": "numeric label"
+    "reason": "llm:chart_label"
    },
    {
-    "text": "36%",
-    "reason": "numeric label"
+    "text": "680",
+    "reason": "llm:chart_label"
+   },
+   {
+    "text": "1,120",
+    "reason": "llm:chart_label"
+   },
+   {
+    "text": "1,680",
+    "reason": "llm:chart_label"
+   },
+   {
+    "text": "2,360",
+    "reason": "llm:chart_label"
    },
    {
     "text": "2023",
-    "reason": "numeric label"
+    "reason": "llm:chart_label"
    },
    {
     "text": "2024",
-    "reason": "numeric label"
+    "reason": "llm:chart_label"
    },
    {
     "text": "2025",
-    "reason": "numeric label"
+    "reason": "llm:chart_label"
    },
    {
     "text": "2026",
-    "reason": "numeric label"
+    "reason": "llm:chart_label"
    },
    {
     "text": "2027",
-    "reason": "numeric label"
+    "reason": "llm:chart_label"
    },
    {
-    "text": "数据来源：行业调研统计",
-    "reason": "complex background"
+    "text": "提升运营效率",
+    "reason": "llm:chart_label"
+   },
+   {
+    "text": "优化客户体验",
+    "reason": "llm:chart_label"
+   },
+   {
+    "text": "降低人力成本",
+    "reason": "llm:chart_label"
+   },
+   {
+    "text": "62%",
+    "reason": "llm:chart_label"
+   },
+   {
+    "text": "48%",
+    "reason": "llm:chart_label"
+   },
+   {
+    "text": "36%",
+    "reason": "llm:chart_label"
+   },
+   {
+    "text": "图1  中国 AI 智能体市场规模及预测",
+    "reason": "llm:body but complex background"
+   },
+   {
+    "text": "图2  企业引入 AI 智能体的核心动因占比",
+    "reason": "llm:body but complex background"
    },
    {
     "text": "郑州莱奥特科技",
-    "reason": "footer band"
+    "reason": "llm:footer"
+   },
+   {
+    "text": "5",
+    "reason": "llm:page_number"
    }
-  ]
+  ],
+  "source": "llm(gpt-5.6-luna)"
  },
  {
   "page": 9,
@@ -1228,211 +1330,181 @@
   "texts": [
    {
     "text": "合作范围",
-    "score": 0.998,
-    "x_pt": 81.6,
-    "y_pt": 172.8,
-    "w_pt": 184.32,
-    "h_pt": 52.32,
-    "size_pt": 46.1,
+    "score": 1.0,
+    "x_pt": 84.96,
+    "y_pt": 177.12,
+    "w_pt": 179.04,
+    "h_pt": 43.68,
+    "size_pt": 44.8,
     "color": [
-     54,
-     76,
-     110
+     11,
+     49,
+     94
     ],
-    "bold": false
+    "bold": true
    },
    {
     "text": "开放多元合作，共建智能化未来",
-    "score": 0.995,
-    "x_pt": 86.4,
-    "y_pt": 246.72,
-    "w_pt": 385.44,
-    "h_pt": 28.32,
-    "size_pt": 27.5,
+    "score": 1.0,
+    "x_pt": 85.92,
+    "y_pt": 247.2,
+    "w_pt": 383.52,
+    "h_pt": 27.36,
+    "size_pt": 27.4,
     "color": [
-     109,
-     123,
-     144
+     18,
+     52,
+     93
     ],
     "bold": false
    },
    {
     "text": "行业解决方案合作",
-    "score": 0.998,
-    "x_pt": 534.72,
-    "y_pt": 367.68,
-    "w_pt": 174.24,
-    "h_pt": 23.04,
-    "size_pt": 21.8,
+    "score": 1.0,
+    "x_pt": 536.16,
+    "y_pt": 369.12,
+    "w_pt": 171.84,
+    "h_pt": 21.12,
+    "size_pt": 21.5,
     "color": [
-     89,
-     105,
-     132
+     18,
+     52,
+     93
+    ],
+    "bold": true
+   },
+   {
+    "text": "面向政务、教育、医疗、金融、制造、",
+    "score": 1.0,
+    "x_pt": 537.12,
+    "y_pt": 408.0,
+    "w_pt": 268.8,
+    "h_pt": 15.84,
+    "size_pt": 15.8,
+    "color": [
+     53,
+     75,
+     106
     ],
     "bold": false
    },
    {
-    "text": "面向政务、教育、医疗、金融、制造、",
-    "score": 0.959,
+    "text": "文旅等行业，提供定制化 AI 智能体",
+    "score": 1.0,
     "x_pt": 537.12,
-    "y_pt": 407.04,
-    "w_pt": 271.68,
+    "y_pt": 434.88,
+    "w_pt": 254.88,
     "h_pt": 18.24,
-    "size_pt": 16.0,
+    "size_pt": 15.9,
     "color": [
-     154,
-     166,
-     177
+     53,
+     75,
+     106
     ],
     "bold": false
    },
    {
     "text": "解决方案。",
-    "score": 0.996,
-    "x_pt": 534.72,
-    "y_pt": 460.8,
-    "w_pt": 74.88,
-    "h_pt": 21.6,
-    "size_pt": 15.0,
+    "score": 1.0,
+    "x_pt": 536.16,
+    "y_pt": 463.2,
+    "w_pt": 70.08,
+    "h_pt": 15.84,
+    "size_pt": 14.0,
     "color": [
-     158,
-     169,
-     181
-    ],
-    "bold": false
-   },
-   {
-    "text": "技术与平台合作",
-    "score": 0.997,
-    "x_pt": 533.28,
-    "y_pt": 548.16,
-    "w_pt": 153.6,
-    "h_pt": 26.4,
-    "size_pt": 21.9,
-    "color": [
-     100,
-     114,
-     138
-    ],
-    "bold": false
-   },
-   {
-    "text": "开放能力接口，开展技术共建、平台",
-    "score": 0.986,
-    "x_pt": 536.64,
-    "y_pt": 588.48,
-    "w_pt": 274.08,
-    "h_pt": 19.2,
-    "size_pt": 17.1,
-    "color": [
-     140,
-     152,
-     165
+     53,
+     75,
+     106
     ],
     "bold": false
    },
    {
     "text": "对接与模型应用合作。",
-    "score": 0.994,
-    "x_pt": 536.64,
-    "y_pt": 616.32,
-    "w_pt": 160.8,
-    "h_pt": 18.72,
-    "size_pt": 16.1,
+    "score": 1.0,
+    "x_pt": 537.12,
+    "y_pt": 616.8,
+    "w_pt": 157.92,
+    "h_pt": 15.84,
+    "size_pt": 15.8,
     "color": [
-     146,
-     159,
-     169
+     53,
+     75,
+     106
     ],
     "bold": false
    },
    {
     "text": "场景落地合作",
-    "score": 0.997,
-    "x_pt": 534.72,
-    "y_pt": 708.48,
-    "w_pt": 130.08,
-    "h_pt": 24.96,
-    "size_pt": 21.7,
+    "score": 1.0,
+    "x_pt": 536.16,
+    "y_pt": 709.92,
+    "w_pt": 126.72,
+    "h_pt": 21.12,
+    "size_pt": 21.1,
     "color": [
-     91,
-     109,
-     134
+     18,
+     52,
+     93
     ],
-    "bold": false
-   },
-   {
-    "text": "联合探索典型业务场景，推动AI智能体",
-    "score": 0.988,
-    "x_pt": 535.68,
-    "y_pt": 749.76,
-    "w_pt": 280.32,
-    "h_pt": 19.2,
-    "size_pt": 16.1,
-    "color": [
-     97,
-     108,
-     129
-    ],
-    "bold": false
+    "bold": true
    },
    {
     "text": "在实际业务中的规模化应用。",
-    "score": 0.992,
-    "x_pt": 536.64,
-    "y_pt": 776.16,
-    "w_pt": 205.44,
-    "h_pt": 20.16,
-    "size_pt": 15.8,
+    "score": 1.0,
+    "x_pt": 537.12,
+    "y_pt": 778.08,
+    "w_pt": 204.0,
+    "h_pt": 15.84,
+    "size_pt": 15.7,
     "color": [
-     154,
-     166,
-     179
+     53,
+     75,
+     106
     ],
     "bold": false
    },
    {
     "text": "生态共建合作",
-    "score": 0.997,
-    "x_pt": 534.24,
-    "y_pt": 872.16,
-    "w_pt": 130.56,
-    "h_pt": 24.96,
-    "size_pt": 21.8,
+    "score": 1.0,
+    "x_pt": 536.16,
+    "y_pt": 873.12,
+    "w_pt": 126.72,
+    "h_pt": 21.12,
+    "size_pt": 21.1,
     "color": [
-     97,
-     112,
-     139
+     18,
+     52,
+     93
     ],
-    "bold": false
+    "bold": true
    },
    {
     "text": "与合作伙伴共同打造产业生态，分享",
-    "score": 0.995,
+    "score": 1.0,
     "x_pt": 537.12,
-    "y_pt": 911.04,
-    "w_pt": 263.52,
-    "h_pt": 19.2,
-    "size_pt": 16.5,
+    "y_pt": 912.0,
+    "w_pt": 263.04,
+    "h_pt": 16.8,
+    "size_pt": 16.4,
     "color": [
-     102,
-     112,
-     129
+     53,
+     75,
+     106
     ],
     "bold": false
    },
    {
-    "text": "注：以上合作范围可根据具体需求进一步沟通。",
-    "score": 0.952,
-    "x_pt": 533.28,
-    "y_pt": 1062.24,
-    "w_pt": 271.2,
-    "h_pt": 16.32,
-    "size_pt": 12.9,
+    "text": "资源、联合创新，实现长期共赢。",
+    "score": 1.0,
+    "x_pt": 537.12,
+    "y_pt": 938.88,
+    "w_pt": 235.68,
+    "h_pt": 17.28,
+    "size_pt": 15.7,
     "color": [
-     132,
-     141,
-     155
+     53,
+     75,
+     106
     ],
     "bold": false
    }
@@ -1440,25 +1512,38 @@
   "protected": [
    {
     "text": "郑州莱奥特科技",
-    "reason": "header band"
+    "reason": "llm:logo"
    },
    {
     "text": "柯幻·让智能体有温度",
-    "reason": "header band"
+    "reason": "llm:header"
    },
    {
-    "text": "文旅等行业，提供定制化AI智能体",
-    "reason": "complex background"
+    "text": "技术与平台合作",
+    "reason": "llm:body but complex background"
    },
    {
-    "text": "资源、联合创新，实现长期共赢。",
-    "reason": "complex background"
+    "text": "开放能力接口，开展技术共建、平台",
+    "reason": "llm:body but complex background"
+   },
+   {
+    "text": "联合探索典型业务场景，推动 AI 智能体",
+    "reason": "llm:body but complex background"
+   },
+   {
+    "text": "注：以上合作范围可根据具体需求进一步沟通。",
+    "reason": "llm:body but complex background"
    },
    {
     "text": "郑州莱奥特科技",
-    "reason": "footer band"
+    "reason": "llm:footer"
+   },
+   {
+    "text": "6",
+    "reason": "llm:page_number"
    }
-  ]
+  ],
+  "source": "llm(gpt-5.6-luna)"
  },
  {
   "page": 10,
@@ -1467,28 +1552,25 @@
   "protected": [
    {
     "text": "郑州莱奥特科技",
-    "reason": "complex background"
+    "reason": "llm:logo"
    },
    {
-    "text": "柯幻熊猫AI智能体",
-    "reason": "complex background"
+    "text": "柯幻熊猫 AI 智能体",
+    "reason": "llm:body but complex background"
    },
    {
-    "text": "智启未来融合创新",
-    "reason": "complex background"
+    "text": "智启未来  融合创新",
+    "reason": "llm:body but complex background"
    },
    {
-    "text": "让AI更懂世界更懂人",
-    "reason": "complex background"
+    "text": "让 AI 更懂世界  更懂人",
+    "reason": "llm:body but complex background"
    },
    {
-    "text": "郑州菜奥特科技",
-    "reason": "complex background"
-   },
-   {
-    "text": "柯幻熊猫AI智能体",
-    "reason": "complex background"
+    "text": "郑州莱奥特科技 柯幻熊猫 AI 智能体",
+    "reason": "llm:footer"
    }
-  ]
+  ],
+  "source": "llm(gpt-5.6-luna)"
  }
 ]
