@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PDF → 可编辑 PPTX 转换</title>
+<style>
+  :root { --bg:#0b1e3d; --card:#12294f; --accent:#38bdf8; --text:#e2e8f0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "Microsoft YaHei", sans-serif; background: var(--bg);
+         color: var(--text); min-height: 100vh; display: flex;
+         flex-direction: column; align-items: center; padding: 48px 16px; }
+  h1 { font-size: 26px; margin-bottom: 8px; }
+  p.sub { color: #94a3b8; margin-bottom: 32px; }
+  .card { background: var(--card); border-radius: 16px; padding: 32px;
+          width: 100%; max-width: 560px; box-shadow: 0 8px 30px rgba(0,0,0,.35); }
+  #drop { border: 2px dashed #33507f; border-radius: 12px; padding: 48px 16px;
+          text-align: center; cursor: pointer; transition: .2s; }
+  #drop.hover, #drop:hover { border-color: var(--accent); background: #16305c; }
+  #fileinfo { margin: 16px 0 8px; color: var(--accent); min-height: 20px; }
+  button { width: 100%; margin-top: 12px; padding: 14px; border: 0;
+           border-radius: 10px; background: var(--accent); color: #06263f;
+           font-size: 16px; font-weight: 700; cursor: pointer; }
+  button:disabled { opacity: .5; cursor: wait; }
+  #status { margin-top: 16px; min-height: 24px; font-size: 14px; color: #94a3b8;
+            white-space: pre-wrap; }
+  .ok { color: #4ade80; } .err { color: #f87171; }
+  footer { margin-top: 28px; color: #475569; font-size: 12px; }
+</style>
+</head>
+<body>
+  <h1>PDF → 可编辑 PPTX</h1>
+  <p class="sub">上传图片型 / 扫描型 PDF，还原为可独立编辑文字与图片的 PPTX</p>
+  <div class="card">
+    <div id="drop">
+      <div style="font-size:40px">📄</div>
+      <div>点击选择或拖拽 PDF 文件到此处</div>
+      <input type="file" id="file" accept="application/pdf" hidden>
+    </div>
+    <div id="fileinfo"></div>
+    <button id="go" disabled>开始转换</button>
+    <div id="status"></div>
+  </div>
+  <footer>OCR: RapidOCR · 引擎: PyMuPDF + OpenCV + python-pptx</footer>
+<script>
+const drop = document.getElementById('drop'),
+      input = document.getElementById('file'),
+      info = document.getElementById('fileinfo'),
+      btn = document.getElementById('go'),
+      st = document.getElementById('status');
+let file = null;
+drop.onclick = () => input.click();
+drop.ondragover = e => { e.preventDefault(); drop.classList.add('hover'); };
+drop.ondragleave = () => drop.classList.remove('hover');
+drop.ondrop = e => { e.preventDefault(); drop.classList.remove('hover');
+                     pick(e.dataTransfer.files[0]); };
+input.onchange = () => pick(input.files[0]);
+function pick(f) {
+  if (!f || !f.name.toLowerCase().endsWith('.pdf')) {
+    info.textContent = '请选择 PDF 文件'; return; }
+  file = f;
+  info.textContent = `${f.name}  (${(f.size/1048576).toFixed(1)} MB)`;
+  btn.disabled = false;
+}
+btn.onclick = async () => {
+  btn.disabled = true;
+  st.className = ''; st.textContent = '转换中…（OCR 识别 + 背景修复，视页数约 10-90 秒）';
+  const fd = new FormData(); fd.append('pdf', file);
+  try {
+    const r = await fetch('/convert', { method: 'POST', body: fd });
+    if (!r.ok) { const j = await r.json(); throw new Error(j.error || 'HTTP ' + r.status); }
+    const stats = r.headers.get('X-Stats') || '';
+    const blob = await r.blob();
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = file.name.replace(/\.pdf$/i, '') + '_editable.pptx';
+    a.click();
+    st.className = 'ok';
+    st.textContent = '转换完成，已开始下载 PPTX。' + (stats ? '\n' + stats : '');
+  } catch (e) {
+    st.className = 'err'; st.textContent = '失败: ' + e.message;
+  } finally { btn.disabled = false; }
+};
+</script>
+</body>
+</html>
