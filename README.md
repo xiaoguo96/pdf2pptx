@@ -6,12 +6,11 @@
 （可移动、可缩放、可替换），幻灯片尺寸与 PDF 页面一致，视觉布局尽量保持原样。
 
 > **在线 Demo（可直接操作：上传 PDF → 下载可编辑 PPTX）**
-> https://server-edmonton-encourages-translated.trycloudflare.com
+> 魔搭社区创空间（永久地址，无需本地环境）：
+> https://www.modelscope.cn/studios/xiaoguox/pdf2pptx
 >
-> 公网实例运行**离线 OCR 模式**（零 API 消耗，实测 165 个可编辑文本框）；
+> 在线实例运行**离线 OCR 模式**（零 API 消耗，实测 165 个可编辑文本框）；
 > 视觉大模型（LLM）模式需本地配置 `LLM_API_KEY` 后按下方"方式二"运行。
-> 该地址为 Cloudflare 临时隧道，演示机开机时有效；长期部署请用仓库内
-> Dockerfile 一键部署（见"方式三"）。
 
 ## 转换原理
 
@@ -112,15 +111,18 @@ python app.py                    # 默认 http://127.0.0.1:7860
 打开页面 → 选择/拖拽 PDF → 点击"开始转换" → 自动下载 `xxx_editable.pptx`，
 状态栏显示 `slides=N;texts=M` 统计。
 
-### 方式三：Docker（云端部署即得在线 Demo）
+### 方式三：Docker / 魔搭创空间（在线 Demo 的部署方式）
+
+本仓库的在线 Demo 即通过魔搭社区（ModelScope）创空间以 Docker SDK 部署，
+部署文件与步骤见仓库根目录 `Dockerfile` + `modelscope-studio/README.md` 卡片头
+（`sdk: docker`、`app_port: 8080`；实例需同时监听 7860/8080 以通过平台健康检查）。
 
 ```bash
 docker build -t pdf2pptx .
-docker run -p 7860:7860 pdf2pptx
+docker run -p 7860:7860 -e PORT=7860 pdf2pptx
 ```
 
-可一键部署到 Render / Railway / Hugging Face Spaces / 任意支持 Docker 的云平台
-（Dockerfile 已按 `PORT` 环境变量监听）。
+同样可一键部署到 Render / Railway / Hugging Face Spaces 等任意支持 Docker 的云平台。
 
 ## 元素还原情况（类型 / 还原结果 / 可编辑性）
 
