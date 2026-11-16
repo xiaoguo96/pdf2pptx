@@ -5,6 +5,14 @@
 还原为原生文本框（可选中、可改写、可改字体字号颜色），背景图片作为独立图片对象
 （可移动、可缩放、可替换），幻灯片尺寸与 PDF 页面一致，视觉布局尽量保持原样。
 
+> **在线 Demo（可直接操作：上传 PDF → 下载可编辑 PPTX）**
+> https://server-edmonton-encourages-translated.trycloudflare.com
+>
+> 公网实例运行**离线 OCR 模式**（零 API 消耗，实测 165 个可编辑文本框）；
+> 视觉大模型（LLM）模式需本地配置 `LLM_API_KEY` 后按下方"方式二"运行。
+> 该地址为 Cloudflare 临时隧道，演示机开机时有效；长期部署请用仓库内
+> Dockerfile 一键部署（见"方式三"）。
+
 ## 转换原理
 
 ```
@@ -157,6 +165,7 @@ docker run -p 7860:7860 pdf2pptx
 - [verify/verify_pptx.py](verify/verify_pptx.py)：打开 PPTX 逐页统计对象，并对每个文本框做
   **"改写探针"**（写入再恢复，证明可编辑）。
 - 样例输出（本仓库 `samples/`，均为上述最终实测产物）：
+  - `结果说明.md` — 元素还原情况 / 验证结果 / 无法还原内容的完整说明
   - `output_测试3_editable.pptx` — LLM 模式转换结果（169 文本框）
   - `output_manifest.json` — 每页元素清单：文字/坐标/字号/字距/颜色/加粗/擦除方式
   - `verify_result.verify.md` / `.json` — 探针报告 169/169
