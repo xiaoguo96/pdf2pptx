@@ -2,17 +2,43 @@
  {
   "page": 1,
   "picture": "Page1 Background",
-  "texts": [],
-  "protected": [
+  "texts": [
    {
     "text": "柯幻熊猫 AI 智能体",
-    "reason": "llm:body but complex background"
+    "score": 1.0,
+    "x_pt": 80.16,
+    "y_pt": 231.84,
+    "w_pt": 367.68,
+    "h_pt": 44.16,
+    "size_pt": 42.9,
+    "color": [
+     244,
+     247,
+     255
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
    },
    {
     "text": "郑州莱奥特科技",
-    "reason": "llm:body but complex background"
+    "score": 1.0,
+    "x_pt": 80.16,
+    "y_pt": 302.88,
+    "w_pt": 215.04,
+    "h_pt": 27.36,
+    "size_pt": 30.4,
+    "color": [
+     232,
+     240,
+     255
+    ],
+    "bold": false,
+    "spacing_pt": 0.0,
+    "erase": "telea"
    }
   ],
+  "protected": [],
   "source": "llm(gpt-5.6-luna)"
  },
  {
@@ -20,19 +46,72 @@
   "picture": "Page2 Background",
   "texts": [
    {
+    "text": "郑州莱奥特科技",
+    "score": 1.0,
+    "x_pt": 174.24,
+    "y_pt": 54.72,
+    "w_pt": 135.84,
+    "h_pt": 19.2,
+    "size_pt": 19.4,
+    "color": [
+     23,
+     44,
+     76
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "柯幻·让智能体有温度",
+    "score": 1.0,
+    "x_pt": 637.92,
+    "y_pt": 54.24,
+    "w_pt": 163.2,
+    "h_pt": 14.88,
+    "size_pt": 17.3,
+    "color": [
+     38,
+     52,
+     77
+    ],
+    "bold": true,
+    "spacing_pt": 0.37,
+    "erase": "row"
+   },
+   {
     "text": "柯幻熊猫 AI 智能体",
     "score": 1.0,
-    "x_pt": 59.04,
-    "y_pt": 198.24,
-    "w_pt": 399.84,
-    "h_pt": 40.32,
-    "size_pt": 44.2,
+    "x_pt": 59.52,
+    "y_pt": 196.8,
+    "w_pt": 400.32,
+    "h_pt": 42.24,
+    "size_pt": 46.4,
     "color": [
-     8,
-     41,
+     9,
+     43,
      87
     ],
-    "bold": true
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "郑州莱奥特科技",
+    "score": 1.0,
+    "x_pt": 60.0,
+    "y_pt": 265.92,
+    "w_pt": 230.4,
+    "h_pt": 30.72,
+    "size_pt": 32.9,
+    "color": [
+     20,
+     47,
+     85
+    ],
+    "bold": false,
+    "spacing_pt": 0.0,
+    "erase": "telea"
    },
    {
     "text": "以人工智能技术为核心，构建有温度、",
@@ -40,29 +119,33 @@
     "x_pt": 63.84,
     "y_pt": 373.92,
     "w_pt": 321.12,
-    "h_pt": 19.2,
-    "size_pt": 18.9,
+    "h_pt": 20.16,
+    "size_pt": 19.0,
     "color": [
      38,
-     59,
-     94
+     58,
+     87
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "可进化、可落地的智能体解决方案，",
     "score": 1.0,
     "x_pt": 62.88,
-    "y_pt": 408.96,
+    "y_pt": 408.0,
     "w_pt": 303.36,
-    "h_pt": 19.2,
+    "h_pt": 22.08,
     "size_pt": 19.0,
     "color": [
      38,
-     59,
-     94
+     58,
+     87
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "让智能体走进更多场景，创造更美好的未来。",
@@ -74,49 +157,66 @@
     "size_pt": 19.2,
     "color": [
      38,
-     59,
-     94
+     58,
+     87
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "柯幻熊猫，让技术更有温度，让智能更贴近生活。",
     "score": 1.0,
     "x_pt": 62.88,
-    "y_pt": 561.12,
+    "y_pt": 560.16,
     "w_pt": 328.32,
-    "h_pt": 13.92,
-    "size_pt": 14.9,
+    "h_pt": 15.84,
+    "size_pt": 14.7,
     "color": [
      38,
-     59,
-     94
+     58,
+     87
     ],
-    "bold": true
-   }
-  ],
-  "protected": [
-   {
-    "text": "郑州莱奥特科技",
-    "reason": "llm:logo"
-   },
-   {
-    "text": "柯幻·让智能体有温度",
-    "reason": "llm:header"
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "郑州莱奥特科技",
-    "reason": "llm:body but complex background"
-   },
-   {
-    "text": "郑州莱奥特科技",
-    "reason": "llm:footer"
+    "score": 1.0,
+    "x_pt": 57.12,
+    "y_pt": 1140.0,
+    "w_pt": 114.72,
+    "h_pt": 17.28,
+    "size_pt": 16.4,
+    "color": [
+     38,
+     58,
+     87
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
    },
    {
     "text": "01",
-    "reason": "llm:page_number"
+    "score": 1.0,
+    "x_pt": 780.96,
+    "y_pt": 1141.92,
+    "w_pt": 18.24,
+    "h_pt": 15.36,
+    "size_pt": 15.4,
+    "color": [
+     38,
+     58,
+     87
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    }
   ],
+  "protected": [],
   "source": "llm(gpt-5.6-luna)"
  },
  {
@@ -124,124 +224,313 @@
   "picture": "Page3 Background",
   "texts": [
    {
+    "text": "郑州莱奥特科技",
+    "score": 1.0,
+    "x_pt": 174.24,
+    "y_pt": 54.72,
+    "w_pt": 135.84,
+    "h_pt": 19.2,
+    "size_pt": 19.4,
+    "color": [
+     23,
+     43,
+     82
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "柯幻·让智能体有温度",
+    "score": 1.0,
+    "x_pt": 637.92,
+    "y_pt": 54.72,
+    "w_pt": 163.2,
+    "h_pt": 14.4,
+    "size_pt": 16.7,
+    "color": [
+     38,
+     50,
+     74
+    ],
+    "bold": true,
+    "spacing_pt": 0.91,
+    "erase": "row"
+   },
+   {
     "text": "目录",
     "score": 1.0,
-    "x_pt": 61.92,
-    "y_pt": 244.8,
-    "w_pt": 81.12,
-    "h_pt": 39.84,
-    "size_pt": 40.6,
+    "x_pt": 60.96,
+    "y_pt": 243.84,
+    "w_pt": 82.56,
+    "h_pt": 40.8,
+    "size_pt": 41.2,
     "color": [
      18,
-     58,
-     115
+     61,
+     118
     ],
-    "bold": true
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "CONTENTS",
+    "score": 1.0,
+    "x_pt": 204.96,
+    "y_pt": 260.64,
+    "w_pt": 111.36,
+    "h_pt": 21.12,
+    "size_pt": 20.5,
+    "color": [
+     21,
+     159,
+     190
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
+   },
+   {
+    "text": "01",
+    "score": 1.0,
+    "x_pt": 57.12,
+    "y_pt": 391.2,
+    "w_pt": 31.68,
+    "h_pt": 25.92,
+    "size_pt": 26.9,
+    "color": [
+     21,
+     159,
+     190
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "关于柯幻熊猫 AI智能体",
     "score": 1.0,
-    "x_pt": 107.04,
-    "y_pt": 398.88,
-    "w_pt": 170.88,
-    "h_pt": 17.28,
-    "size_pt": 15.9,
+    "x_pt": 106.08,
+    "y_pt": 397.92,
+    "w_pt": 172.8,
+    "h_pt": 18.24,
+    "size_pt": 16.9,
     "color": [
-     38,
-     58,
-     89
+     39,
+     51,
+     75
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "03",
+    "score": 1.0,
+    "x_pt": 380.16,
+    "y_pt": 398.88,
+    "w_pt": 19.68,
+    "h_pt": 16.32,
+    "size_pt": 16.5,
+    "color": [
+     39,
+     51,
+     75
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "03",
+    "score": 1.0,
+    "x_pt": 454.08,
+    "y_pt": 391.2,
+    "w_pt": 36.0,
+    "h_pt": 25.92,
+    "size_pt": 30.1,
+    "color": [
+     21,
+     159,
+     190
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "应用场景与行业解决方案",
+    "score": 1.0,
+    "x_pt": 503.04,
+    "y_pt": 397.92,
+    "w_pt": 184.32,
+    "h_pt": 18.24,
+    "size_pt": 16.8,
+    "color": [
+     39,
+     51,
+     75
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
+   },
+   {
+    "text": "11",
+    "score": 1.0,
+    "x_pt": 779.04,
+    "y_pt": 399.84,
+    "w_pt": 19.2,
+    "h_pt": 15.36,
+    "size_pt": 16.2,
+    "color": [
+     39,
+     51,
+     75
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "02",
+    "score": 1.0,
+    "x_pt": 57.12,
+    "y_pt": 483.36,
+    "w_pt": 33.12,
+    "h_pt": 26.88,
+    "size_pt": 28.0,
+    "color": [
+     21,
+     159,
+     190
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "核心技术与产品体系",
     "score": 1.0,
-    "x_pt": 106.08,
-    "y_pt": 491.04,
-    "w_pt": 165.12,
-    "h_pt": 16.8,
-    "size_pt": 18.3,
+    "x_pt": 105.12,
+    "y_pt": 490.08,
+    "w_pt": 166.08,
+    "h_pt": 17.76,
+    "size_pt": 18.2,
     "color": [
-     38,
-     58,
-     89
+     39,
+     51,
+     75
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "07",
+    "score": 1.0,
+    "x_pt": 380.16,
+    "y_pt": 492.0,
+    "w_pt": 19.68,
+    "h_pt": 14.88,
+    "size_pt": 16.5,
+    "color": [
+     39,
+     51,
+     75
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "04",
+    "score": 1.0,
+    "x_pt": 455.04,
+    "y_pt": 483.36,
+    "w_pt": 32.16,
+    "h_pt": 26.88,
+    "size_pt": 27.1,
+    "color": [
+     21,
+     159,
+     190
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "未来规划与社会价值",
     "score": 1.0,
     "x_pt": 504.0,
-    "y_pt": 491.04,
-    "w_pt": 169.92,
-    "h_pt": 16.8,
-    "size_pt": 18.9,
+    "y_pt": 490.08,
+    "w_pt": 182.4,
+    "h_pt": 19.68,
+    "size_pt": 20.2,
     "color": [
-     38,
-     58,
-     89
+     39,
+     51,
+     75
     ],
-    "bold": false
-   }
-  ],
-  "protected": [
-   {
-    "text": "郑州莱奥特科技",
-    "reason": "llm:logo"
-   },
-   {
-    "text": "柯幻·让智能体有温度",
-    "reason": "llm:header"
-   },
-   {
-    "text": "CONTENTS",
-    "reason": "llm:body but complex background"
-   },
-   {
-    "text": "01",
-    "reason": "llm:badge"
-   },
-   {
-    "text": "03",
-    "reason": "llm:chart_label"
-   },
-   {
-    "text": "03",
-    "reason": "llm:badge"
-   },
-   {
-    "text": "应用场景与行业解决方案",
-    "reason": "llm:body but complex background"
-   },
-   {
-    "text": "11",
-    "reason": "llm:chart_label"
-   },
-   {
-    "text": "02",
-    "reason": "llm:badge"
-   },
-   {
-    "text": "07",
-    "reason": "llm:chart_label"
-   },
-   {
-    "text": "04",
-    "reason": "llm:badge"
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "15",
-    "reason": "llm:chart_label"
+    "score": 1.0,
+    "x_pt": 779.04,
+    "y_pt": 492.0,
+    "w_pt": 20.16,
+    "h_pt": 14.88,
+    "size_pt": 17.3,
+    "color": [
+     39,
+     51,
+     75
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "郑州莱奥特科技",
-    "reason": "llm:footer"
+    "score": 1.0,
+    "x_pt": 57.12,
+    "y_pt": 1140.48,
+    "w_pt": 114.72,
+    "h_pt": 15.36,
+    "size_pt": 16.1,
+    "color": [
+     39,
+     51,
+     75
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "02",
-    "reason": "llm:page_number"
+    "score": 1.0,
+    "x_pt": 780.0,
+    "y_pt": 1142.88,
+    "w_pt": 20.16,
+    "h_pt": 14.4,
+    "size_pt": 16.7,
+    "color": [
+     39,
+     51,
+     75
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
    }
   ],
+  "protected": [],
   "source": "llm(gpt-5.6-luna)"
  },
  {
@@ -249,79 +538,174 @@
   "picture": "Page4 Background",
   "texts": [
    {
-    "text": "柯幻熊猫智能体战略路线",
+    "text": "郑州莱奥特科技",
     "score": 1.0,
-    "x_pt": 78.72,
-    "y_pt": 177.12,
-    "w_pt": 542.88,
-    "h_pt": 45.12,
-    "size_pt": 49.4,
-    "color": [
-     11,
-     16,
-     32
-    ],
-    "bold": true
-   },
-   {
-    "text": "以人为本，让 AI 智能体走进更多真实场景",
-    "score": 1.0,
-    "x_pt": 84.0,
-    "y_pt": 244.32,
-    "w_pt": 502.08,
-    "h_pt": 25.92,
-    "size_pt": 26.4,
-    "color": [
-     89,
-     96,
-     110
-    ],
-    "bold": false
-   },
-   {
-    "text": "构建多模态能力",
-    "score": 1.0,
-    "x_pt": 95.04,
-    "y_pt": 498.24,
-    "w_pt": 120.96,
-    "h_pt": 16.8,
-    "size_pt": 17.3,
-    "color": [
-     89,
-     96,
-     110
-    ],
-    "bold": false
-   },
-   {
-    "text": "打磨核心算法",
-    "score": 1.0,
-    "x_pt": 95.04,
-    "y_pt": 525.12,
-    "w_pt": 104.16,
-    "h_pt": 15.84,
-    "size_pt": 17.4,
-    "color": [
-     89,
-     96,
-     110
-    ],
-    "bold": false
-   },
-   {
-    "text": "场景深耕",
-    "score": 1.0,
-    "x_pt": 272.16,
-    "y_pt": 455.04,
-    "w_pt": 85.92,
-    "h_pt": 21.12,
-    "size_pt": 21.5,
+    "x_pt": 100.8,
+    "y_pt": 56.64,
+    "w_pt": 138.24,
+    "h_pt": 19.2,
+    "size_pt": 19.6,
     "color": [
      17,
      24,
      39
     ],
-    "bold": true
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "柯幻·让智能体有温度",
+    "score": 1.0,
+    "x_pt": 627.84,
+    "y_pt": 57.12,
+    "w_pt": 173.76,
+    "h_pt": 17.76,
+    "size_pt": 18.9,
+    "color": [
+     31,
+     41,
+     55
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
+   },
+   {
+    "text": "柯幻熊猫智能体战略路线",
+    "score": 1.0,
+    "x_pt": 79.2,
+    "y_pt": 177.12,
+    "w_pt": 539.52,
+    "h_pt": 41.76,
+    "size_pt": 48.6,
+    "color": [
+     11,
+     18,
+     32
+    ],
+    "bold": true,
+    "spacing_pt": 0.62,
+    "erase": "row"
+   },
+   {
+    "text": "以人为本，让 AI 智能体走进更多真实场景",
+    "score": 1.0,
+    "x_pt": 83.04,
+    "y_pt": 243.84,
+    "w_pt": 504.0,
+    "h_pt": 27.36,
+    "size_pt": 27.0,
+    "color": [
+     91,
+     100,
+     114
+    ],
+    "bold": false,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "01",
+    "score": 1.0,
+    "x_pt": 93.12,
+    "y_pt": 420.0,
+    "w_pt": 23.04,
+    "h_pt": 22.08,
+    "size_pt": 20.1,
+    "color": [
+     8,
+     121,
+     201
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "技术筑基",
+    "score": 1.0,
+    "x_pt": 92.16,
+    "y_pt": 454.56,
+    "w_pt": 86.88,
+    "h_pt": 22.08,
+    "size_pt": 21.6,
+    "color": [
+     17,
+     24,
+     39
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
+   },
+   {
+    "text": "构建多模态能力",
+    "score": 1.0,
+    "x_pt": 94.08,
+    "y_pt": 498.24,
+    "w_pt": 117.6,
+    "h_pt": 16.8,
+    "size_pt": 16.7,
+    "color": [
+     91,
+     100,
+     114
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
+   },
+   {
+    "text": "打磨核心算法",
+    "score": 1.0,
+    "x_pt": 94.08,
+    "y_pt": 524.16,
+    "w_pt": 105.12,
+    "h_pt": 17.76,
+    "size_pt": 17.3,
+    "color": [
+     91,
+     100,
+     114
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "02",
+    "score": 1.0,
+    "x_pt": 272.16,
+    "y_pt": 420.0,
+    "w_pt": 26.88,
+    "h_pt": 22.56,
+    "size_pt": 23.0,
+    "color": [
+     8,
+     121,
+     201
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "场景深耕",
+    "score": 1.0,
+    "x_pt": 272.16,
+    "y_pt": 454.56,
+    "w_pt": 86.88,
+    "h_pt": 22.08,
+    "size_pt": 21.6,
+    "color": [
+     17,
+     24,
+     39
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "聚焦行业应用",
@@ -330,136 +714,205 @@
     "y_pt": 498.24,
     "w_pt": 103.68,
     "h_pt": 16.8,
-    "size_pt": 17.3,
+    "size_pt": 17.2,
     "color": [
-     89,
-     96,
-     110
+     91,
+     100,
+     114
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "推动落地实践",
     "score": 1.0,
     "x_pt": 273.12,
-    "y_pt": 525.12,
-    "w_pt": 103.68,
-    "h_pt": 15.84,
-    "size_pt": 17.3,
+    "y_pt": 524.16,
+    "w_pt": 105.12,
+    "h_pt": 16.8,
+    "size_pt": 17.6,
     "color": [
-     89,
-     96,
-     110
+     91,
+     100,
+     114
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "03",
+    "score": 1.0,
+    "x_pt": 477.6,
+    "y_pt": 420.0,
+    "w_pt": 27.36,
+    "h_pt": 22.56,
+    "size_pt": 23.0,
+    "color": [
+     8,
+     121,
+     201
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "生态共建",
+    "score": 1.0,
+    "x_pt": 477.12,
+    "y_pt": 455.04,
+    "w_pt": 85.92,
+    "h_pt": 21.6,
+    "size_pt": 21.6,
+    "color": [
+     17,
+     24,
+     39
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
    },
    {
     "text": "开放平台能力",
     "score": 1.0,
-    "x_pt": 479.04,
-    "y_pt": 499.2,
-    "w_pt": 103.2,
-    "h_pt": 15.84,
-    "size_pt": 17.2,
+    "x_pt": 478.08,
+    "y_pt": 498.24,
+    "w_pt": 104.16,
+    "h_pt": 16.8,
+    "size_pt": 17.3,
     "color": [
-     89,
-     96,
-     110
+     91,
+     100,
+     114
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "连接更多伙伴",
     "score": 1.0,
-    "x_pt": 479.04,
+    "x_pt": 478.08,
     "y_pt": 525.12,
-    "w_pt": 104.16,
-    "h_pt": 15.84,
-    "size_pt": 17.4,
+    "w_pt": 105.12,
+    "h_pt": 16.8,
+    "size_pt": 17.6,
     "color": [
-     89,
-     96,
-     110
+     91,
+     100,
+     114
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "04",
+    "score": 1.0,
+    "x_pt": 674.88,
+    "y_pt": 420.96,
+    "w_pt": 26.88,
+    "h_pt": 21.12,
+    "size_pt": 22.9,
+    "color": [
+     8,
+     121,
+     201
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "价值普惠",
+    "score": 1.0,
+    "x_pt": 673.92,
+    "y_pt": 455.04,
+    "w_pt": 87.36,
+    "h_pt": 21.6,
+    "size_pt": 21.8,
+    "color": [
+     17,
+     24,
+     39
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
    },
    {
     "text": "让智能体走进生活",
     "score": 1.0,
     "x_pt": 674.88,
-    "y_pt": 499.2,
-    "w_pt": 138.24,
-    "h_pt": 15.84,
-    "size_pt": 17.3,
+    "y_pt": 498.24,
+    "w_pt": 139.2,
+    "h_pt": 16.8,
+    "size_pt": 17.4,
     "color": [
-     89,
-     96,
-     110
+     91,
+     100,
+     114
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "创造更大社会价值",
     "score": 1.0,
-    "x_pt": 675.84,
+    "x_pt": 674.88,
     "y_pt": 525.12,
-    "w_pt": 137.28,
-    "h_pt": 15.84,
-    "size_pt": 17.2,
+    "w_pt": 139.2,
+    "h_pt": 17.28,
+    "size_pt": 17.5,
     "color": [
-     89,
-     96,
-     110
+     91,
+     100,
+     114
     ],
-    "bold": false
-   }
-  ],
-  "protected": [
-   {
-    "text": "郑州莱奥特科技",
-    "reason": "llm:logo"
-   },
-   {
-    "text": "柯幻·让智能体有温度",
-    "reason": "llm:header"
-   },
-   {
-    "text": "01",
-    "reason": "llm:badge"
-   },
-   {
-    "text": "技术筑基",
-    "reason": "llm:body but complex background"
-   },
-   {
-    "text": "02",
-    "reason": "llm:badge"
-   },
-   {
-    "text": "03",
-    "reason": "llm:badge"
-   },
-   {
-    "text": "生态共建",
-    "reason": "llm:body but complex background"
-   },
-   {
-    "text": "04",
-    "reason": "llm:badge"
-   },
-   {
-    "text": "价值普惠",
-    "reason": "llm:body but complex background"
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "郑州莱奥特科技",
-    "reason": "llm:footer"
+    "score": 1.0,
+    "x_pt": 49.92,
+    "y_pt": 1142.88,
+    "w_pt": 117.12,
+    "h_pt": 16.32,
+    "size_pt": 16.5,
+    "color": [
+     55,
+     65,
+     81
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "01",
-    "reason": "llm:page_number"
+    "score": 1.0,
+    "x_pt": 783.84,
+    "y_pt": 1138.08,
+    "w_pt": 19.2,
+    "h_pt": 14.88,
+    "size_pt": 15.7,
+    "color": [
+     55,
+     65,
+     81
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    }
   ],
+  "protected": [],
   "source": "llm(gpt-5.6-luna)"
  },
  {
@@ -467,220 +920,347 @@
   "picture": "Page5 Background",
   "texts": [
    {
+    "text": "郑州莱奥特科技",
+    "score": 1.0,
+    "x_pt": 99.84,
+    "y_pt": 56.64,
+    "w_pt": 139.2,
+    "h_pt": 19.2,
+    "size_pt": 19.9,
+    "color": [
+     17,
+     24,
+     39
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "柯幻·让智能体有温度",
+    "score": 1.0,
+    "x_pt": 626.88,
+    "y_pt": 57.12,
+    "w_pt": 174.24,
+    "h_pt": 17.28,
+    "size_pt": 19.0,
+    "color": [
+     31,
+     41,
+     55
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "核心能力",
+    "score": 1.0,
+    "x_pt": 76.8,
+    "y_pt": 177.12,
+    "w_pt": 192.0,
+    "h_pt": 39.84,
+    "size_pt": 46.3,
+    "color": [
+     17,
+     24,
+     39
+    ],
+    "bold": true,
+    "spacing_pt": 1.92,
+    "erase": "row"
+   },
+   {
     "text": "以技术与场景双轮驱动，打造更有温度的 AI 智能体",
     "score": 1.0,
-    "x_pt": 82.08,
-    "y_pt": 241.92,
-    "w_pt": 588.0,
-    "h_pt": 25.92,
-    "size_pt": 25.5,
+    "x_pt": 81.12,
+    "y_pt": 242.4,
+    "w_pt": 588.96,
+    "h_pt": 26.4,
+    "size_pt": 25.7,
     "color": [
      75,
      85,
      99
     ],
-    "bold": false
+    "bold": false,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "多模态理解与生成",
     "score": 1.0,
-    "x_pt": 433.92,
-    "y_pt": 340.8,
-    "w_pt": 181.92,
-    "h_pt": 22.08,
-    "size_pt": 22.7,
+    "x_pt": 432.96,
+    "y_pt": 342.72,
+    "w_pt": 183.84,
+    "h_pt": 20.16,
+    "size_pt": 22.8,
     "color": [
-     11,
-     18,
-     32
+     17,
+     24,
+     39
     ],
-    "bold": true
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
-    "text": "实现更自然的交互体验。",
+    "text": "支持文本、图像、语音等多模态融合，",
     "score": 1.0,
-    "x_pt": 432.96,
-    "y_pt": 405.12,
-    "w_pt": 179.04,
-    "h_pt": 16.8,
-    "size_pt": 16.3,
+    "x_pt": 432.0,
+    "y_pt": 379.2,
+    "w_pt": 283.2,
+    "h_pt": 17.76,
+    "size_pt": 16.5,
     "color": [
      107,
      114,
      128
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "实现更自然的交互体验。",
+    "score": 1.0,
+    "x_pt": 432.0,
+    "y_pt": 405.12,
+    "w_pt": 180.0,
+    "h_pt": 15.84,
+    "size_pt": 16.1,
+    "color": [
+     107,
+     114,
+     128
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "行业场景适配",
     "score": 1.0,
-    "x_pt": 432.96,
-    "y_pt": 480.0,
-    "w_pt": 139.2,
-    "h_pt": 21.12,
-    "size_pt": 23.2,
+    "x_pt": 432.48,
+    "y_pt": 480.96,
+    "w_pt": 140.64,
+    "h_pt": 20.64,
+    "size_pt": 23.4,
     "color": [
-     11,
-     18,
-     32
+     17,
+     24,
+     39
     ],
-    "bold": true
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "面向多行业深度优化，快速适配真实业务",
     "score": 1.0,
-    "x_pt": 432.96,
+    "x_pt": 432.0,
     "y_pt": 517.92,
-    "w_pt": 319.2,
-    "h_pt": 17.28,
+    "w_pt": 318.24,
+    "h_pt": 18.24,
     "size_pt": 17.7,
     "color": [
      107,
      114,
      128
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "场景，提升应用价值。",
     "score": 1.0,
-    "x_pt": 432.96,
+    "x_pt": 432.0,
     "y_pt": 543.84,
-    "w_pt": 162.24,
-    "h_pt": 15.36,
-    "size_pt": 16.2,
+    "w_pt": 163.2,
+    "h_pt": 15.84,
+    "size_pt": 16.1,
     "color": [
      107,
      114,
      128
     ],
-    "bold": true
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "智能决策与执行",
     "score": 1.0,
     "x_pt": 432.96,
-    "y_pt": 619.2,
+    "y_pt": 619.68,
     "w_pt": 163.2,
-    "h_pt": 21.6,
-    "size_pt": 23.3,
+    "h_pt": 20.64,
+    "size_pt": 23.1,
     "color": [
-     11,
-     18,
-     32
+     17,
+     24,
+     39
     ],
-    "bold": true
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "具备自主规划与任务执行能力，",
     "score": 1.0,
-    "x_pt": 432.96,
-    "y_pt": 658.08,
-    "w_pt": 233.28,
-    "h_pt": 16.8,
-    "size_pt": 16.7,
+    "x_pt": 432.0,
+    "y_pt": 658.56,
+    "w_pt": 235.2,
+    "h_pt": 16.32,
+    "size_pt": 16.6,
     "color": [
      107,
      114,
      128
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "持续学习迭代，提供高效可靠的服务。",
     "score": 1.0,
     "x_pt": 432.0,
     "y_pt": 683.04,
-    "w_pt": 286.08,
+    "w_pt": 288.0,
     "h_pt": 16.8,
-    "size_pt": 16.8,
+    "size_pt": 17.0,
     "color": [
      107,
      114,
      128
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "开放生态能力",
+    "score": 1.0,
+    "x_pt": 432.0,
+    "y_pt": 763.2,
+    "w_pt": 139.2,
+    "h_pt": 20.64,
+    "size_pt": 22.9,
+    "color": [
+     17,
+     24,
+     39
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "提供灵活的接口与平台能力，",
     "score": 1.0,
-    "x_pt": 432.96,
-    "y_pt": 801.12,
-    "w_pt": 217.92,
-    "h_pt": 16.8,
+    "x_pt": 432.0,
+    "y_pt": 801.6,
+    "w_pt": 218.88,
+    "h_pt": 17.28,
     "size_pt": 16.8,
     "color": [
      107,
      114,
      128
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "携手合作伙伴共建智能体生态。",
     "score": 1.0,
-    "x_pt": 432.96,
-    "y_pt": 827.04,
-    "w_pt": 236.16,
-    "h_pt": 15.84,
-    "size_pt": 16.9,
+    "x_pt": 432.0,
+    "y_pt": 826.08,
+    "w_pt": 237.12,
+    "h_pt": 17.28,
+    "size_pt": 17.0,
     "color": [
      107,
      114,
      128
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
-    "text": "用 AI 创造更美好的未来。",
+    "text": "让智能体更懂行业、更懂人，",
     "score": 1.0,
-    "x_pt": 615.84,
-    "y_pt": 1044.96,
-    "w_pt": 170.4,
-    "h_pt": 14.88,
-    "size_pt": 14.2,
+    "x_pt": 616.32,
+    "y_pt": 1021.92,
+    "w_pt": 178.56,
+    "h_pt": 16.32,
+    "size_pt": 13.4,
     "color": [
      75,
      85,
      99
     ],
-    "bold": false
-   }
-  ],
-  "protected": [
-   {
-    "text": "郑州莱奥特科技",
-    "reason": "llm:logo"
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
    },
    {
-    "text": "柯幻·让智能体有温度",
-    "reason": "llm:header"
-   },
-   {
-    "text": "核心能力",
-    "reason": "llm:body but complex background"
-   },
-   {
-    "text": "支持文本、图像、语音等多模态融合，",
-    "reason": "llm:body but complex background"
-   },
-   {
-    "text": "开放生态能力",
-    "reason": "llm:body but complex background"
-   },
-   {
-    "text": "让智能体更懂行业，更懂人，",
-    "reason": "llm:body but complex background"
+    "text": "用 AI 创造更美好的未来。",
+    "score": 1.0,
+    "x_pt": 616.32,
+    "y_pt": 1044.96,
+    "w_pt": 170.88,
+    "h_pt": 14.88,
+    "size_pt": 14.6,
+    "color": [
+     75,
+     85,
+     99
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "郑州莱奥特科技",
-    "reason": "llm:footer"
+    "score": 1.0,
+    "x_pt": 48.96,
+    "y_pt": 1142.4,
+    "w_pt": 116.16,
+    "h_pt": 16.8,
+    "size_pt": 16.3,
+    "color": [
+     75,
+     85,
+     99
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "02",
-    "reason": "llm:page_number"
+    "score": 1.0,
+    "x_pt": 780.0,
+    "y_pt": 1137.12,
+    "w_pt": 19.2,
+    "h_pt": 14.88,
+    "size_pt": 15.7,
+    "color": [
+     55,
+     65,
+     81
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    }
   ],
+  "protected": [],
   "source": "llm(gpt-5.6-luna)"
  },
  {
@@ -688,64 +1268,140 @@
   "picture": "Page6 Background",
   "texts": [
    {
+    "text": "郑州莱奥特科技",
+    "score": 1.0,
+    "x_pt": 104.16,
+    "y_pt": 50.88,
+    "w_pt": 155.04,
+    "h_pt": 22.08,
+    "size_pt": 22.0,
+    "color": [
+     23,
+     52,
+     93
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "柯幻·让智能体有温度",
+    "score": 1.0,
+    "x_pt": 634.56,
+    "y_pt": 60.96,
+    "w_pt": 165.6,
+    "h_pt": 17.28,
+    "size_pt": 18.0,
+    "color": [
+     94,
+     104,
+     120
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
     "text": "安全与合规",
     "score": 1.0,
-    "x_pt": 55.2,
+    "x_pt": 54.24,
     "y_pt": 163.2,
     "w_pt": 284.64,
-    "h_pt": 53.28,
-    "size_pt": 56.9,
+    "h_pt": 52.32,
+    "size_pt": 56.6,
     "color": [
-     8,
-     43,
-     91
+     11,
+     53,
+     108
     ],
-    "bold": true
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "构建可信赖的智能体服务体系",
     "score": 1.0,
     "x_pt": 54.24,
-    "y_pt": 240.0,
-    "w_pt": 372.0,
-    "h_pt": 26.88,
+    "y_pt": 241.44,
+    "w_pt": 372.96,
+    "h_pt": 26.4,
     "size_pt": 28.6,
     "color": [
-     83,
-     98,
-     118
+     90,
+     101,
+     123
     ],
-    "bold": false
+    "bold": false,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "数据安全保护",
+    "score": 1.0,
+    "x_pt": 93.12,
+    "y_pt": 508.32,
+    "w_pt": 165.12,
+    "h_pt": 25.44,
+    "size_pt": 27.5,
+    "color": [
+     11,
+     53,
+     108
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
+   },
+   {
+    "text": "全链路数据加密，完善的权限管控",
+    "score": 1.0,
+    "x_pt": 93.12,
+    "y_pt": 558.24,
+    "w_pt": 276.96,
+    "h_pt": 19.68,
+    "size_pt": 18.6,
+    "color": [
+     93,
+     104,
+     125
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
    },
    {
     "text": "机制，保障数据安全与隐私。",
     "score": 1.0,
     "x_pt": 93.12,
     "y_pt": 589.92,
-    "w_pt": 229.92,
+    "w_pt": 230.88,
     "h_pt": 19.2,
-    "size_pt": 17.7,
+    "size_pt": 17.6,
     "color": [
-     83,
-     98,
-     118
+     93,
+     104,
+     125
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "合规规范管理",
     "score": 1.0,
-    "x_pt": 482.88,
+    "x_pt": 481.92,
     "y_pt": 508.32,
-    "w_pt": 156.96,
-    "h_pt": 24.96,
-    "size_pt": 26.2,
+    "w_pt": 158.88,
+    "h_pt": 25.44,
+    "size_pt": 26.4,
     "color": [
-     8,
-     43,
-     91
+     11,
+     53,
+     108
     ],
-    "bold": true
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "遵循国家法律法规与行业标准，",
@@ -753,14 +1409,16 @@
     "x_pt": 481.92,
     "y_pt": 559.2,
     "w_pt": 252.0,
-    "h_pt": 17.76,
+    "h_pt": 18.72,
     "size_pt": 18.0,
     "color": [
-     83,
-     98,
-     118
+     93,
+     104,
+     125
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "建立健全的合规管理体系。",
@@ -768,29 +1426,50 @@
     "x_pt": 481.92,
     "y_pt": 589.92,
     "w_pt": 215.04,
-    "h_pt": 18.24,
+    "h_pt": 19.2,
     "size_pt": 17.9,
     "color": [
-     83,
-     98,
-     118
+     93,
+     104,
+     125
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "内容安全审核",
+    "score": 1.0,
+    "x_pt": 94.08,
+    "y_pt": 885.6,
+    "w_pt": 162.72,
+    "h_pt": 26.4,
+    "size_pt": 26.9,
+    "color": [
+     11,
+     53,
+     108
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
    },
    {
     "text": "多维度内容识别与风险过滤，",
     "score": 1.0,
-    "x_pt": 94.08,
-    "y_pt": 936.0,
-    "w_pt": 228.0,
-    "h_pt": 19.2,
-    "size_pt": 17.5,
+    "x_pt": 93.12,
+    "y_pt": 936.96,
+    "w_pt": 229.92,
+    "h_pt": 18.24,
+    "size_pt": 17.7,
     "color": [
-     83,
-     98,
-     118
+     93,
+     104,
+     125
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "杜绝有害信息，守护健康生态。",
@@ -799,90 +1478,103 @@
     "y_pt": 968.16,
     "w_pt": 249.12,
     "h_pt": 18.72,
-    "size_pt": 17.8,
+    "size_pt": 17.6,
     "color": [
-     83,
-     98,
-     118
+     93,
+     104,
+     125
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "责任可追溯",
     "score": 1.0,
-    "x_pt": 482.88,
-    "y_pt": 886.56,
-    "w_pt": 133.92,
-    "h_pt": 24.96,
-    "size_pt": 26.8,
+    "x_pt": 481.92,
+    "y_pt": 885.6,
+    "w_pt": 136.32,
+    "h_pt": 26.4,
+    "size_pt": 27.1,
     "color": [
-     8,
-     43,
-     91
+     11,
+     53,
+     108
     ],
-    "bold": true
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "完整的日志审计与追溯机制，",
     "score": 1.0,
-    "x_pt": 482.88,
-    "y_pt": 936.0,
-    "w_pt": 232.32,
+    "x_pt": 481.92,
+    "y_pt": 936.96,
+    "w_pt": 233.28,
     "h_pt": 19.2,
     "size_pt": 17.9,
     "color": [
-     83,
-     98,
-     118
+     93,
+     104,
+     125
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "确保使用过程可监管、可追溯。",
     "score": 1.0,
     "x_pt": 481.92,
-    "y_pt": 969.12,
-    "w_pt": 252.96,
-    "h_pt": 17.76,
-    "size_pt": 18.1,
+    "y_pt": 968.16,
+    "w_pt": 253.92,
+    "h_pt": 18.72,
+    "size_pt": 17.8,
     "color": [
-     83,
-     98,
-     118
+     93,
+     104,
+     125
     ],
-    "bold": false
-   }
-  ],
-  "protected": [
-   {
-    "text": "郑州菜奥特科技",
-    "reason": "llm:logo"
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
-    "text": "柯幻·让智能体有温度",
-    "reason": "llm:header"
-   },
-   {
-    "text": "数据安全保护",
-    "reason": "llm:body but complex background"
-   },
-   {
-    "text": "全链路数据加密，完善的权限管控",
-    "reason": "llm:body but complex background"
-   },
-   {
-    "text": "内容安全审核",
-    "reason": "llm:body but complex background"
-   },
-   {
-    "text": "郑州菜奥特科技",
-    "reason": "llm:footer"
+    "text": "郑州莱奥特科技",
+    "score": 1.0,
+    "x_pt": 55.2,
+    "y_pt": 1146.24,
+    "w_pt": 119.04,
+    "h_pt": 15.84,
+    "size_pt": 16.9,
+    "color": [
+     94,
+     104,
+     120
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "3",
-    "reason": "llm:page_number"
+    "score": 1.0,
+    "x_pt": 790.08,
+    "y_pt": 1147.2,
+    "w_pt": 8.16,
+    "h_pt": 13.92,
+    "size_pt": 13.8,
+    "color": [
+     94,
+     104,
+     120
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    }
   ],
+  "protected": [],
   "source": "llm(gpt-5.6-luna)"
  },
  {
@@ -890,124 +1582,191 @@
   "picture": "Page7 Background",
   "texts": [
    {
+    "text": "郑州莱奥特科技",
+    "score": 1.0,
+    "x_pt": 104.16,
+    "y_pt": 50.88,
+    "w_pt": 154.08,
+    "h_pt": 23.04,
+    "size_pt": 21.9,
+    "color": [
+     16,
+     41,
+     79
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "柯幻·让智能体有温度",
+    "score": 1.0,
+    "x_pt": 634.08,
+    "y_pt": 60.96,
+    "w_pt": 165.12,
+    "h_pt": 16.8,
+    "size_pt": 17.8,
+    "color": [
+     82,
+     99,
+     122
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
     "text": "应用场景",
     "score": 1.0,
-    "x_pt": 54.24,
-    "y_pt": 163.2,
+    "x_pt": 54.72,
+    "y_pt": 162.72,
     "w_pt": 227.04,
-    "h_pt": 53.28,
-    "size_pt": 56.8,
+    "h_pt": 53.76,
+    "size_pt": 56.5,
     "color": [
-     8,
+     11,
      45,
-     104
+     99
     ],
-    "bold": true
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "三大场景落地，赋能千行百业",
     "score": 1.0,
-    "x_pt": 55.2,
-    "y_pt": 240.48,
-    "w_pt": 373.92,
-    "h_pt": 26.88,
-    "size_pt": 28.8,
+    "x_pt": 54.72,
+    "y_pt": 240.0,
+    "w_pt": 372.96,
+    "h_pt": 28.8,
+    "size_pt": 28.5,
     "color": [
-     89,
-     100,
-     116
+     83,
+     97,
+     120
     ],
-    "bold": false
+    "bold": false,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "企业办公",
     "score": 1.0,
-    "x_pt": 498.24,
-    "y_pt": 434.88,
-    "w_pt": 106.56,
-    "h_pt": 24.96,
-    "size_pt": 26.6,
+    "x_pt": 495.84,
+    "y_pt": 433.44,
+    "w_pt": 110.4,
+    "h_pt": 27.36,
+    "size_pt": 27.5,
     "color": [
-     8,
-     45,
-     104
+     9,
+     44,
+     99
     ],
-    "bold": true
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "智能助理、知识管理、流程协同，",
     "score": 1.0,
-    "x_pt": 498.24,
+    "x_pt": 496.8,
     "y_pt": 481.92,
-    "w_pt": 258.72,
+    "w_pt": 260.16,
     "h_pt": 19.2,
     "size_pt": 17.2,
     "color": [
-     89,
-     100,
-     116
+     83,
+     97,
+     120
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "提升组织效率，助力企业数字化转型。",
+    "score": 1.0,
+    "x_pt": 496.8,
+    "y_pt": 510.24,
+    "w_pt": 285.12,
+    "h_pt": 19.68,
+    "size_pt": 16.6,
+    "color": [
+     83,
+     97,
+     120
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
    },
    {
     "text": "政务服务",
     "score": 1.0,
     "x_pt": 496.8,
-    "y_pt": 702.24,
-    "w_pt": 108.0,
+    "y_pt": 703.2,
+    "w_pt": 111.36,
     "h_pt": 25.92,
-    "size_pt": 27.0,
+    "size_pt": 27.7,
     "color": [
-     8,
-     45,
-     104
+     9,
+     44,
+     99
     ],
-    "bold": true
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "智能问答、事项办理、信息整合，",
     "score": 1.0,
-    "x_pt": 498.24,
+    "x_pt": 496.8,
     "y_pt": 750.24,
-    "w_pt": 258.72,
-    "h_pt": 18.72,
-    "size_pt": 17.2,
+    "w_pt": 260.16,
+    "h_pt": 19.68,
+    "size_pt": 17.3,
     "color": [
-     89,
-     100,
-     116
+     83,
+     97,
+     120
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "提升政务服务效能与公众体验。",
     "score": 1.0,
     "x_pt": 496.8,
     "y_pt": 780.96,
-    "w_pt": 243.36,
+    "w_pt": 244.32,
     "h_pt": 17.28,
-    "size_pt": 17.4,
+    "size_pt": 17.6,
     "color": [
-     89,
-     100,
-     116
+     83,
+     97,
+     120
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "教育科研",
     "score": 1.0,
-    "x_pt": 498.24,
-    "y_pt": 959.04,
-    "w_pt": 108.0,
-    "h_pt": 25.44,
-    "size_pt": 27.0,
+    "x_pt": 496.8,
+    "y_pt": 958.08,
+    "w_pt": 111.36,
+    "h_pt": 26.88,
+    "size_pt": 27.9,
     "color": [
-     8,
-     45,
-     104
+     9,
+     44,
+     99
     ],
-    "bold": true
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "智能教学、个性化学习、科研辅助，",
@@ -1018,54 +1777,84 @@
     "h_pt": 19.2,
     "size_pt": 17.6,
     "color": [
-     89,
-     100,
-     116
+     83,
+     97,
+     120
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "促进教育公平与创新发展。",
     "score": 1.0,
     "x_pt": 496.8,
     "y_pt": 1037.28,
-    "w_pt": 209.28,
-    "h_pt": 17.28,
-    "size_pt": 17.4,
+    "w_pt": 210.24,
+    "h_pt": 15.84,
+    "size_pt": 17.5,
     "color": [
-     89,
-     100,
-     116
+     83,
+     97,
+     120
     ],
-    "bold": false
-   }
-  ],
-  "protected": [
-   {
-    "text": "郑州莱奥特科技",
-    "reason": "llm:logo"
-   },
-   {
-    "text": "柯幻·让智能体有温度",
-    "reason": "llm:header"
-   },
-   {
-    "text": "提升组织效率，助力企业数字化转型。",
-    "reason": "llm:body but complex background"
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "注：以上为典型应用场景示例，具体落地方案可根据实际需求定制。",
-    "reason": "llm:body but complex background"
+    "score": 1.0,
+    "x_pt": 52.8,
+    "y_pt": 1095.84,
+    "w_pt": 474.24,
+    "h_pt": 16.32,
+    "size_pt": 15.6,
+    "color": [
+     83,
+     97,
+     120
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "郑州莱奥特科技",
-    "reason": "llm:footer"
+    "score": 1.0,
+    "x_pt": 54.24,
+    "y_pt": 1145.76,
+    "w_pt": 118.56,
+    "h_pt": 16.32,
+    "size_pt": 16.9,
+    "color": [
+     83,
+     97,
+     120
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
    },
    {
     "text": "4",
-    "reason": "llm:page_number"
+    "score": 1.0,
+    "x_pt": 789.6,
+    "y_pt": 1147.2,
+    "w_pt": 9.6,
+    "h_pt": 13.92,
+    "size_pt": 16.2,
+    "color": [
+     83,
+     97,
+     120
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    }
   ],
+  "protected": [],
   "source": "llm(gpt-5.6-luna)"
  },
  {
@@ -1073,255 +1862,636 @@
   "picture": "Page8 Background",
   "texts": [
    {
-    "text": "市场趋势",
+    "text": "郑州莱奥特科技",
     "score": 1.0,
-    "x_pt": 88.8,
-    "y_pt": 178.08,
-    "w_pt": 173.28,
-    "h_pt": 37.44,
-    "size_pt": 43.3,
+    "x_pt": 112.8,
+    "y_pt": 42.24,
+    "w_pt": 131.52,
+    "h_pt": 20.16,
+    "size_pt": 18.8,
     "color": [
      18,
-     52,
-     93
+     59,
+     102
     ],
-    "bold": true
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "拘幻·让智能体有温度",
+    "score": 1.0,
+    "x_pt": 640.8,
+    "y_pt": 43.2,
+    "w_pt": 162.72,
+    "h_pt": 16.8,
+    "size_pt": 17.3,
+    "color": [
+     18,
+     59,
+     102
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
+   },
+   {
+    "text": "市场趋势",
+    "score": 1.0,
+    "x_pt": 87.84,
+    "y_pt": 177.12,
+    "w_pt": 176.16,
+    "h_pt": 41.28,
+    "size_pt": 43.9,
+    "color": [
+     13,
+     53,
+     102
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "AI 智能体加速渗透，行业应用进入规模化落地阶段",
     "score": 1.0,
-    "x_pt": 87.84,
-    "y_pt": 247.68,
-    "w_pt": 614.4,
-    "h_pt": 26.88,
-    "size_pt": 27.0,
+    "x_pt": 86.88,
+    "y_pt": 247.2,
+    "w_pt": 616.32,
+    "h_pt": 28.8,
+    "size_pt": 27.4,
     "color": [
      23,
-     56,
-     95
+     59,
+     104
     ],
-    "bold": false
+    "bold": false,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "中国 AI 智能体市场规模（亿元）",
     "score": 1.0,
-    "x_pt": 69.12,
-    "y_pt": 382.08,
-    "w_pt": 265.92,
-    "h_pt": 18.72,
-    "size_pt": 17.7,
+    "x_pt": 68.16,
+    "y_pt": 381.12,
+    "w_pt": 267.84,
+    "h_pt": 19.68,
+    "size_pt": 18.4,
     "color": [
      18,
-     56,
-     95
+     59,
+     102
     ],
-    "bold": true
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "2,500",
+    "score": 1.0,
+    "x_pt": 64.8,
+    "y_pt": 446.88,
+    "w_pt": 37.44,
+    "h_pt": 14.88,
+    "size_pt": 14.3,
+    "color": [
+     83,
+     101,
+     121
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "2,000",
+    "score": 1.0,
+    "x_pt": 64.8,
+    "y_pt": 506.88,
+    "w_pt": 37.44,
+    "h_pt": 14.88,
+    "size_pt": 14.3,
+    "color": [
+     83,
+     101,
+     121
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "1,500",
+    "score": 1.0,
+    "x_pt": 66.24,
+    "y_pt": 566.4,
+    "w_pt": 36.0,
+    "h_pt": 15.84,
+    "size_pt": 13.7,
+    "color": [
+     83,
+     101,
+     121
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "1,000",
+    "score": 1.0,
+    "x_pt": 66.24,
+    "y_pt": 628.8,
+    "w_pt": 36.0,
+    "h_pt": 13.44,
+    "size_pt": 14.0,
+    "color": [
+     83,
+     101,
+     121
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "500",
+    "score": 1.0,
+    "x_pt": 76.8,
+    "y_pt": 690.72,
+    "w_pt": 25.92,
+    "h_pt": 12.48,
+    "size_pt": 14.5,
+    "color": [
+     83,
+     101,
+     121
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "0",
+    "score": 1.0,
+    "x_pt": 94.08,
+    "y_pt": 751.68,
+    "w_pt": 8.16,
+    "h_pt": 13.44,
+    "size_pt": 14.0,
+    "color": [
+     83,
+     101,
+     121
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "320",
+    "score": 1.0,
+    "x_pt": 132.96,
+    "y_pt": 690.24,
+    "w_pt": 24.0,
+    "h_pt": 14.88,
+    "size_pt": 13.5,
+    "color": [
+     23,
+     59,
+     104
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
+   },
+   {
+    "text": "680",
+    "score": 1.0,
+    "x_pt": 189.12,
+    "y_pt": 650.4,
+    "w_pt": 24.0,
+    "h_pt": 15.36,
+    "size_pt": 14.1,
+    "color": [
+     23,
+     59,
+     104
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
+   },
+   {
+    "text": "1,120",
+    "score": 1.0,
+    "x_pt": 234.24,
+    "y_pt": 595.68,
+    "w_pt": 36.96,
+    "h_pt": 15.84,
+    "size_pt": 13.7,
+    "color": [
+     23,
+     59,
+     104
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
+   },
+   {
+    "text": "1,680",
+    "score": 1.0,
+    "x_pt": 294.24,
+    "y_pt": 527.04,
+    "w_pt": 36.48,
+    "h_pt": 16.32,
+    "size_pt": 13.6,
+    "color": [
+     23,
+     59,
+     104
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
+   },
+   {
+    "text": "2,360",
+    "score": 1.0,
+    "x_pt": 355.2,
+    "y_pt": 447.36,
+    "w_pt": 37.92,
+    "h_pt": 15.84,
+    "size_pt": 14.4,
+    "color": [
+     23,
+     59,
+     104
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
+   },
+   {
+    "text": "2023",
+    "score": 1.0,
+    "x_pt": 129.12,
+    "y_pt": 772.8,
+    "w_pt": 33.12,
+    "h_pt": 13.44,
+    "size_pt": 13.6,
+    "color": [
+     83,
+     101,
+     121
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "2024",
+    "score": 1.0,
+    "x_pt": 184.8,
+    "y_pt": 772.8,
+    "w_pt": 33.12,
+    "h_pt": 13.44,
+    "size_pt": 13.6,
+    "color": [
+     83,
+     101,
+     121
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "2025",
+    "score": 1.0,
+    "x_pt": 241.92,
+    "y_pt": 772.8,
+    "w_pt": 34.08,
+    "h_pt": 13.44,
+    "size_pt": 14.4,
+    "color": [
+     83,
+     101,
+     121
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "2026",
+    "score": 1.0,
+    "x_pt": 300.96,
+    "y_pt": 772.8,
+    "w_pt": 33.12,
+    "h_pt": 13.44,
+    "size_pt": 13.6,
+    "color": [
+     83,
+     101,
+     121
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
+   },
+   {
+    "text": "2027",
+    "score": 1.0,
+    "x_pt": 360.0,
+    "y_pt": 772.8,
+    "w_pt": 32.16,
+    "h_pt": 13.44,
+    "size_pt": 13.6,
+    "color": [
+     83,
+     101,
+     121
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "企业引入 AI 智能体的核心动因",
     "score": 1.0,
     "x_pt": 451.2,
-    "y_pt": 382.08,
+    "y_pt": 381.12,
     "w_pt": 258.72,
-    "h_pt": 17.76,
-    "size_pt": 18.4,
+    "h_pt": 19.68,
+    "size_pt": 18.7,
     "color": [
      18,
-     56,
-     95
+     59,
+     102
     ],
-    "bold": true
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "提升运营效果",
+    "score": 1.0,
+    "x_pt": 444.96,
+    "y_pt": 490.56,
+    "w_pt": 77.76,
+    "h_pt": 16.32,
+    "size_pt": 12.8,
+    "color": [
+     83,
+     101,
+     121
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
+   },
+   {
+    "text": "62%",
+    "score": 1.0,
+    "x_pt": 752.16,
+    "y_pt": 490.08,
+    "w_pt": 36.96,
+    "h_pt": 15.84,
+    "size_pt": 17.5,
+    "color": [
+     23,
+     59,
+     104
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "优化客户体验",
+    "score": 1.0,
+    "x_pt": 444.96,
+    "y_pt": 603.84,
+    "w_pt": 78.24,
+    "h_pt": 16.32,
+    "size_pt": 13.0,
+    "color": [
+     83,
+     101,
+     121
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
+   },
+   {
+    "text": "48%",
+    "score": 1.0,
+    "x_pt": 705.12,
+    "y_pt": 600.48,
+    "w_pt": 36.96,
+    "h_pt": 15.36,
+    "size_pt": 17.9,
+    "color": [
+     23,
+     59,
+     104
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "降低人力成本",
+    "score": 1.0,
+    "x_pt": 446.88,
+    "y_pt": 716.16,
+    "w_pt": 76.32,
+    "h_pt": 15.84,
+    "size_pt": 12.8,
+    "color": [
+     83,
+     101,
+     121
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
+   },
+   {
+    "text": "36%",
+    "score": 1.0,
+    "x_pt": 669.12,
+    "y_pt": 714.24,
+    "w_pt": 36.96,
+    "h_pt": 13.92,
+    "size_pt": 16.2,
+    "color": [
+     23,
+     59,
+     104
+    ],
+    "bold": true,
+    "spacing_pt": 1.68,
+    "erase": "row"
+   },
+   {
+    "text": "图1 中国AI智能体市场规模及预测",
+    "score": 1.0,
+    "x_pt": 86.88,
+    "y_pt": 840.96,
+    "w_pt": 244.8,
+    "h_pt": 17.28,
+    "size_pt": 16.5,
+    "color": [
+     83,
+     101,
+     121
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
    },
    {
     "text": "数据来源：行业公开资料整理",
     "score": 1.0,
     "x_pt": 87.84,
-    "y_pt": 870.24,
-    "w_pt": 198.24,
+    "y_pt": 870.72,
+    "w_pt": 199.2,
     "h_pt": 15.36,
+    "size_pt": 15.4,
+    "color": [
+     138,
+     146,
+     155
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "图2 企业引入 AI 智能体的核心动因占比",
+    "score": 1.0,
+    "x_pt": 468.96,
+    "y_pt": 840.96,
+    "w_pt": 262.56,
+    "h_pt": 17.28,
     "size_pt": 15.2,
     "color": [
-     122,
-     135,
-     152
+     83,
+     101,
+     121
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
    },
    {
     "text": "数据来源：行业调研统计",
     "score": 1.0,
     "x_pt": 468.96,
-    "y_pt": 870.24,
-    "w_pt": 166.08,
+    "y_pt": 870.72,
+    "w_pt": 167.04,
     "h_pt": 15.36,
     "size_pt": 15.1,
     "color": [
-     122,
-     135,
-     152
+     138,
+     146,
+     155
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "结论：",
     "score": 1.0,
     "x_pt": 48.96,
-    "y_pt": 993.12,
-    "w_pt": 54.24,
-    "h_pt": 21.12,
-    "size_pt": 18.1,
+    "y_pt": 992.16,
+    "w_pt": 55.2,
+    "h_pt": 23.04,
+    "size_pt": 18.5,
     "color": [
      18,
-     56,
-     95
+     59,
+     102
     ],
-    "bold": true
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "AI 智能体市场保持高速增长，企业应用意愿持续提升，",
     "score": 1.0,
     "x_pt": 118.08,
     "y_pt": 992.16,
-    "w_pt": 553.92,
-    "h_pt": 24.0,
-    "size_pt": 22.4,
+    "w_pt": 563.52,
+    "h_pt": 24.96,
+    "size_pt": 23.1,
     "color": [
-     18,
-     56,
-     95
+     23,
+     59,
+     104
     ],
-    "bold": false
+    "bold": false,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "未来将在更多行业实现规模化落地，释放更大价值。",
     "score": 1.0,
-    "x_pt": 119.04,
-    "y_pt": 1031.04,
-    "w_pt": 533.76,
-    "h_pt": 21.12,
-    "size_pt": 23.2,
+    "x_pt": 118.08,
+    "y_pt": 1030.56,
+    "w_pt": 534.72,
+    "h_pt": 22.56,
+    "size_pt": 23.3,
+    "color": [
+     23,
+     59,
+     104
+    ],
+    "bold": false,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "郑州莱奥特科技",
+    "score": 1.0,
+    "x_pt": 48.0,
+    "y_pt": 1147.2,
+    "w_pt": 114.24,
+    "h_pt": 15.84,
+    "size_pt": 16.1,
     "color": [
      18,
-     56,
-     95
+     59,
+     102
     ],
-    "bold": false
-   }
-  ],
-  "protected": [
-   {
-    "text": "郑州莱奥特科技",
-    "reason": "llm:logo"
-   },
-   {
-    "text": "柯幻·让智能体有温度",
-    "reason": "llm:header"
-   },
-   {
-    "text": "2,500",
-    "reason": "llm:chart_label"
-   },
-   {
-    "text": "2,000",
-    "reason": "llm:chart_label"
-   },
-   {
-    "text": "1,500",
-    "reason": "llm:chart_label"
-   },
-   {
-    "text": "1,000",
-    "reason": "llm:chart_label"
-   },
-   {
-    "text": "500",
-    "reason": "llm:chart_label"
-   },
-   {
-    "text": "0",
-    "reason": "llm:chart_label"
-   },
-   {
-    "text": "320",
-    "reason": "llm:chart_label"
-   },
-   {
-    "text": "680",
-    "reason": "llm:chart_label"
-   },
-   {
-    "text": "1,120",
-    "reason": "llm:chart_label"
-   },
-   {
-    "text": "1,680",
-    "reason": "llm:chart_label"
-   },
-   {
-    "text": "2,360",
-    "reason": "llm:chart_label"
-   },
-   {
-    "text": "2023",
-    "reason": "llm:chart_label"
-   },
-   {
-    "text": "2024",
-    "reason": "llm:chart_label"
-   },
-   {
-    "text": "2025",
-    "reason": "llm:chart_label"
-   },
-   {
-    "text": "2026",
-    "reason": "llm:chart_label"
-   },
-   {
-    "text": "2027",
-    "reason": "llm:chart_label"
-   },
-   {
-    "text": "提升运营效率",
-    "reason": "llm:chart_label"
-   },
-   {
-    "text": "优化客户体验",
-    "reason": "llm:chart_label"
-   },
-   {
-    "text": "降低人力成本",
-    "reason": "llm:chart_label"
-   },
-   {
-    "text": "62%",
-    "reason": "llm:chart_label"
-   },
-   {
-    "text": "48%",
-    "reason": "llm:chart_label"
-   },
-   {
-    "text": "36%",
-    "reason": "llm:chart_label"
-   },
-   {
-    "text": "图1  中国 AI 智能体市场规模及预测",
-    "reason": "llm:body but complex background"
-   },
-   {
-    "text": "图2  企业引入 AI 智能体的核心动因占比",
-    "reason": "llm:body but complex background"
-   },
-   {
-    "text": "郑州莱奥特科技",
-    "reason": "llm:footer"
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "5",
-    "reason": "llm:page_number"
+    "score": 1.0,
+    "x_pt": 796.8,
+    "y_pt": 1148.16,
+    "w_pt": 10.08,
+    "h_pt": 15.84,
+    "size_pt": 16.8,
+    "color": [
+     18,
+     59,
+     102
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    }
   ],
+  "protected": [],
   "source": "llm(gpt-5.6-luna)"
  },
  {
@@ -1329,19 +2499,55 @@
   "picture": "Page9 Background",
   "texts": [
    {
+    "text": "郑州莱奥特科技",
+    "score": 1.0,
+    "x_pt": 109.92,
+    "y_pt": 43.68,
+    "w_pt": 131.52,
+    "h_pt": 17.28,
+    "size_pt": 18.8,
+    "color": [
+     18,
+     62,
+     107
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
+   },
+   {
+    "text": "柯幻·让智能体有温度",
+    "score": 1.0,
+    "x_pt": 639.84,
+    "y_pt": 43.2,
+    "w_pt": 164.16,
+    "h_pt": 16.8,
+    "size_pt": 17.6,
+    "color": [
+     18,
+     62,
+     107
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
     "text": "合作范围",
     "score": 1.0,
     "x_pt": 84.96,
-    "y_pt": 177.12,
+    "y_pt": 176.64,
     "w_pt": 179.04,
-    "h_pt": 43.68,
-    "size_pt": 44.8,
+    "h_pt": 44.16,
+    "size_pt": 44.9,
     "color": [
-     11,
-     49,
-     94
+     7,
+     56,
+     107
     ],
-    "bold": true
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "开放多元合作，共建智能化未来",
@@ -1350,73 +2556,117 @@
     "y_pt": 247.2,
     "w_pt": 383.52,
     "h_pt": 27.36,
-    "size_pt": 27.4,
+    "size_pt": 27.1,
     "color": [
-     18,
-     52,
-     93
+     36,
+     74,
+     115
     ],
-    "bold": false
+    "bold": false,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "行业解决方案合作",
     "score": 1.0,
-    "x_pt": 536.16,
-    "y_pt": 369.12,
-    "w_pt": 171.84,
-    "h_pt": 21.12,
-    "size_pt": 21.5,
+    "x_pt": 535.2,
+    "y_pt": 369.6,
+    "w_pt": 172.8,
+    "h_pt": 20.64,
+    "size_pt": 21.6,
     "color": [
-     18,
-     52,
-     93
+     7,
+     56,
+     107
     ],
-    "bold": true
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "面向政务、教育、医疗、金融、制造、",
     "score": 1.0,
     "x_pt": 537.12,
-    "y_pt": 408.0,
-    "w_pt": 268.8,
+    "y_pt": 408.96,
+    "w_pt": 269.76,
     "h_pt": 15.84,
-    "size_pt": 15.8,
+    "size_pt": 15.6,
     "color": [
-     53,
-     75,
-     106
+     64,
+     86,
+     116
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "文旅等行业，提供定制化 AI 智能体",
     "score": 1.0,
-    "x_pt": 537.12,
+    "x_pt": 536.16,
     "y_pt": 434.88,
-    "w_pt": 254.88,
+    "w_pt": 256.8,
     "h_pt": 18.24,
-    "size_pt": 15.9,
+    "size_pt": 16.2,
     "color": [
-     53,
-     75,
-     106
+     64,
+     86,
+     116
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "解决方案。",
     "score": 1.0,
     "x_pt": 536.16,
-    "y_pt": 463.2,
-    "w_pt": 70.08,
-    "h_pt": 15.84,
+    "y_pt": 462.24,
+    "w_pt": 71.04,
+    "h_pt": 17.28,
     "size_pt": 14.0,
     "color": [
-     53,
-     75,
-     106
+     64,
+     86,
+     116
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "技术与平台合作",
+    "score": 1.0,
+    "x_pt": 535.2,
+    "y_pt": 550.08,
+    "w_pt": 150.72,
+    "h_pt": 22.08,
+    "size_pt": 21.3,
+    "color": [
+     7,
+     56,
+     107
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "开放能力接口，开展技术共建、平台",
+    "score": 1.0,
+    "x_pt": 537.12,
+    "y_pt": 588.96,
+    "w_pt": 267.36,
+    "h_pt": 19.2,
+    "size_pt": 16.4,
+    "color": [
+     64,
+     86,
+     116
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
    },
    {
     "text": "对接与模型应用合作。",
@@ -1424,153 +2674,282 @@
     "x_pt": 537.12,
     "y_pt": 616.8,
     "w_pt": 157.92,
-    "h_pt": 15.84,
+    "h_pt": 14.88,
     "size_pt": 15.8,
     "color": [
-     53,
-     75,
-     106
+     64,
+     86,
+     116
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "场景落地合作",
     "score": 1.0,
-    "x_pt": 536.16,
+    "x_pt": 535.2,
     "y_pt": 709.92,
-    "w_pt": 126.72,
-    "h_pt": 21.12,
-    "size_pt": 21.1,
+    "w_pt": 128.64,
+    "h_pt": 20.16,
+    "size_pt": 21.2,
     "color": [
-     18,
-     52,
-     93
+     7,
+     56,
+     107
     ],
-    "bold": true
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
+   },
+   {
+    "text": "联合探索典型业务场景，推动 AI 智能体",
+    "score": 1.0,
+    "x_pt": 537.12,
+    "y_pt": 750.24,
+    "w_pt": 272.16,
+    "h_pt": 17.76,
+    "size_pt": 15.6,
+    "color": [
+     64,
+     86,
+     116
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
    },
    {
     "text": "在实际业务中的规模化应用。",
     "score": 1.0,
     "x_pt": 537.12,
     "y_pt": 778.08,
-    "w_pt": 204.0,
-    "h_pt": 15.84,
-    "size_pt": 15.7,
+    "w_pt": 204.96,
+    "h_pt": 16.32,
+    "size_pt": 15.5,
     "color": [
-     53,
-     75,
-     106
+     64,
+     86,
+     116
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "生态共建合作",
     "score": 1.0,
     "x_pt": 536.16,
     "y_pt": 873.12,
-    "w_pt": 126.72,
-    "h_pt": 21.12,
-    "size_pt": 21.1,
+    "w_pt": 127.68,
+    "h_pt": 21.6,
+    "size_pt": 21.2,
     "color": [
-     18,
-     52,
-     93
+     7,
+     56,
+     107
     ],
-    "bold": true
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "与合作伙伴共同打造产业生态，分享",
     "score": 1.0,
     "x_pt": 537.12,
-    "y_pt": 912.0,
+    "y_pt": 913.44,
     "w_pt": 263.04,
-    "h_pt": 16.8,
-    "size_pt": 16.4,
+    "h_pt": 15.36,
+    "size_pt": 16.2,
     "color": [
-     53,
-     75,
-     106
+     64,
+     86,
+     116
     ],
-    "bold": false
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "资源、联合创新，实现长期共赢。",
     "score": 1.0,
     "x_pt": 537.12,
     "y_pt": 938.88,
-    "w_pt": 235.68,
-    "h_pt": 17.28,
-    "size_pt": 15.7,
+    "w_pt": 237.12,
+    "h_pt": 18.24,
+    "size_pt": 15.8,
     "color": [
-     53,
-     75,
-     106
+     64,
+     86,
+     116
     ],
-    "bold": false
-   }
-  ],
-  "protected": [
-   {
-    "text": "郑州莱奥特科技",
-    "reason": "llm:logo"
-   },
-   {
-    "text": "柯幻·让智能体有温度",
-    "reason": "llm:header"
-   },
-   {
-    "text": "技术与平台合作",
-    "reason": "llm:body but complex background"
-   },
-   {
-    "text": "开放能力接口，开展技术共建、平台",
-    "reason": "llm:body but complex background"
-   },
-   {
-    "text": "联合探索典型业务场景，推动 AI 智能体",
-    "reason": "llm:body but complex background"
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "注：以上合作范围可根据具体需求进一步沟通。",
-    "reason": "llm:body but complex background"
+    "score": 1.0,
+    "x_pt": 533.28,
+    "y_pt": 1062.24,
+    "w_pt": 269.28,
+    "h_pt": 14.88,
+    "size_pt": 12.7,
+    "color": [
+     64,
+     86,
+     116
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
    },
    {
     "text": "郑州莱奥特科技",
-    "reason": "llm:footer"
+    "score": 1.0,
+    "x_pt": 46.08,
+    "y_pt": 1147.68,
+    "w_pt": 113.76,
+    "h_pt": 15.36,
+    "size_pt": 16.3,
+    "color": [
+     18,
+     62,
+     107
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    },
    {
     "text": "6",
-    "reason": "llm:page_number"
+    "score": 1.0,
+    "x_pt": 792.0,
+    "y_pt": 1148.16,
+    "w_pt": 12.96,
+    "h_pt": 14.4,
+    "size_pt": 16.7,
+    "color": [
+     18,
+     62,
+     107
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "row"
    }
   ],
+  "protected": [],
   "source": "llm(gpt-5.6-luna)"
  },
  {
   "page": 10,
   "picture": "Page10 Background",
-  "texts": [],
-  "protected": [
+  "texts": [
    {
     "text": "郑州莱奥特科技",
-    "reason": "llm:logo"
+    "score": 1.0,
+    "x_pt": 94.08,
+    "y_pt": 582.24,
+    "w_pt": 188.16,
+    "h_pt": 25.92,
+    "size_pt": 26.8,
+    "color": [
+     232,
+     234,
+     240
+    ],
+    "bold": false,
+    "spacing_pt": 0.0,
+    "erase": "telea"
    },
    {
     "text": "柯幻熊猫 AI 智能体",
-    "reason": "llm:body but complex background"
+    "score": 1.0,
+    "x_pt": 93.12,
+    "y_pt": 631.2,
+    "w_pt": 228.0,
+    "h_pt": 24.96,
+    "size_pt": 26.5,
+    "color": [
+     232,
+     234,
+     240
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
    },
    {
-    "text": "智启未来  融合创新",
-    "reason": "llm:body but complex background"
+    "text": "智启未来 融合创新",
+    "score": 1.0,
+    "x_pt": 94.08,
+    "y_pt": 680.16,
+    "w_pt": 198.72,
+    "h_pt": 23.04,
+    "size_pt": 23.8,
+    "color": [
+     232,
+     234,
+     240
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
    },
    {
-    "text": "让 AI 更懂世界  更懂人",
-    "reason": "llm:body but complex background"
+    "text": "让AI更懂世界 更懂人",
+    "score": 1.0,
+    "x_pt": 93.12,
+    "y_pt": 723.84,
+    "w_pt": 228.0,
+    "h_pt": 22.08,
+    "size_pt": 24.3,
+    "color": [
+     232,
+     234,
+     240
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
    },
    {
-    "text": "郑州莱奥特科技 柯幻熊猫 AI 智能体",
-    "reason": "llm:footer"
+    "text": "郑州莱奥特科技",
+    "score": 1.0,
+    "x_pt": 94.08,
+    "y_pt": 1072.8,
+    "w_pt": 126.72,
+    "h_pt": 21.12,
+    "size_pt": 18.0,
+    "color": [
+     221,
+     229,
+     239
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
+   },
+   {
+    "text": "柯幻熊猫 AI 智能体",
+    "score": 1.0,
+    "x_pt": 93.12,
+    "y_pt": 1104.0,
+    "w_pt": 157.92,
+    "h_pt": 20.16,
+    "size_pt": 18.5,
+    "color": [
+     221,
+     229,
+     239
+    ],
+    "bold": true,
+    "spacing_pt": 0.0,
+    "erase": "telea"
    }
   ],
+  "protected": [],
   "source": "llm(gpt-5.6-luna)"
  }
 ]
